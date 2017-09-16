@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+    <meta name="LinkPHP" content="liugene" />
+    <link href="resource/static/layui/css/layui.css" type="text/css" rel="stylesheet" />
+    <link href="resource/static/main/css/index.css" type="text/css" rel="stylesheet" />
+    <link href="resource/static/main/css/footer.css" type="text/css" rel="stylesheet" />
+    <script src="resource/static/layui/layui.js"></script>
+    <script src="resource/static/main/js/jquery.min.js"></script>
+    <script src="resource/static/main/js/quietflow.min.js"></script>
+
+    <title><{$title}>-LinkPHP开源框架</title>
+</head>
+
+<body>
+<div id="nav">
+ <div class="nav-show">
+  <div class="nav-show-left">
+   <img src="resource/static/main/img/linkphp.png" />
+  </div>
+  <div class="nav-show-right">
+   <ul class="layui-nav" layui-filter="linkphpnav">
+   <li class="layui-nav-item"><a href="#">首页</a></li>
+   <li class="layui-nav-item"><a href="http://i.linkphp.cn" target="_blank">技术问答</a></li>
+   <li class="layui-nav-item"><a href="https://github.com/osnote/LinkPHP" target="_blank">GitHub</a></li>
+   <li class="layui-nav-item"><a href="http://class.linkphp.cn" target="_blank">类库加载</a></li>
+   <li class="layui-nav-item"><a href="http://wiki.linkphp.cn" target="_blank">WIKI手册</a></li>
+   <li class="layui-nav-item">
+    <a href="javascript:;">帮助指南</a>
+    <dl class="layui-nav-child"> 
+      <dd><a href="http://api.linkphp.cn" target="_blank">API中心</a></dd>
+      <dd><a href="http://class.linkphp.cn" target="_blank">类库加载</a></dd>
+      <dd><a href="http://dev.linkphp.cn" target="_blank">开发者平台</a></dd>
+    </dl>
+  </li>
+  </ul>
+  </div>
+ </div>
+</div>
+<hr style="margin:0;">
+<!-- 首页中间  -->
+<div class="clear"></div>
+<div id="content">
+ <div class="class-content">
+  <div class="class-content-logo">
+    <img src="resource/static/main/img/icon.png" style="width:220px;height:220px" />
+  </div>
+  <div class="class-content-item">
+    <a href="http://class.linkphp.cn" target="_blank" class="layui-btn layui-btn-big layui-btn-radius">加载类库</a>
+    <a href="httP://wiki.linkphp.cn" target="_blank" class="layui-btn layui-btn-big layui-btn-radius">帮助手册</a>
+    <a href="http://i.linkphp.cn" target="_blank" class="layui-btn layui-btn-primary layui-btn-big layui-btn-radius">技术问答社区</a>
+    <a href="http://api.linkphp.cn" target="_blank" class="layui-btn layui-btn-big layui-btn-radius layui-btn-warm">API调用</a>
+  </div>
+  <div class="class-content-font">
+   当前类库大小：15个 | 最新更新于: 2017-03-19
+  </div>
+ </div>
+</div>
+
+<div class="clear">
+</div>
+<hr style="margin:0;">
+<!-- 首页中间  -->
+<div id="center">
+ <div class="center-show">
+  <div class="center-show-item"><i class="layui-icon" style="font-size:230px; color:#5FB878;">&#xe635;</i></div>
+  <div class="center-show-item"><i class="layui-icon" style="font-size:230px; color:#F7B824;">&#xe620;</i></div>
+  <div class="center-show-item"><i class="layui-icon" style="font-size:230px; color:#5FB878;">&#xe61e;</i></div>
+ </div>
+ <div class="center-show">
+  <div class="center-show-item center-show-font">
+    <p>你可以配置不同的上传方案并绑定至不同的用户组，实现不同用户组的文件以不同方式存储，或者不同用户组对文件有不同的限制。</p>
+  </div>
+  <div class="center-show-item center-show-font">
+    <p>你可以配置不同的上传方案并绑定至不同的用户组，实现不同用户组的文件以不同方式存储，或者不同用户组对文件有不同的限制。</p>
+  </div>
+  <div class="center-show-item center-show-font">
+    <p>你可以配置不同的上传方案并绑定至不同的用户组，实现不同用户组的文件以不同方式存储，或者不同用户组对文件有不同的限制。</p>
+  </div>
+ </div>
+</div>
+
+<!-- 合作展示  -->
+<!--
+<hr style="margin:0;">
+<div id="work">
+ <div class="work-show">
+  <div class="work-show-item"></div>
+  <div class="work-show-item"></div>
+  <div class="work-show-item"></div>
+  <div class="work-show-item"></div>
+  <div class="work-show-item"></div>
+ </div>
+ <div class="work-show">
+  <div class="work-show-item"></div>
+  <div class="work-show-item"></div>
+  <div class="work-show-item"></div>
+  <div class="work-show-item"></div>
+  <div class="work-show-item"></div>
+ </div>
+ <div class="work-show work-show-space">
+  <fieldset class="layui-elem-field">
+   <legend>类库-支持以上 </legend>
+   <div class="layui-field-box">
+    LinkPHP开源类库支持以上
+   </div>
+  </fieldset>
+ </div>
+</div>
+-->
+
+<!-- 底部  -->
+<hr style="margin:0;">
+<{include file="public/footer.html"}>
+
+<script>
+ $("#content").quietflow({
+  theme:"bouncingBalls",
+  backgroundCol : "#393D49",
+  specificColors : ["#2F4056", "#d2d2d2","#333","#5FB878"]
+ // speed : 100
+})
+layui.use(['element'],function(){
+	var element = layui.element();
+	element.on('tab(linkphpnav)',function(){
+	});
+});
+</script>
+</body>
+</html>
