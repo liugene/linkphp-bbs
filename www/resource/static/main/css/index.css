@@ -25,11 +25,33 @@ body{
  margin:0 auto;
 }
 .nav-show-left{
- width:45%;
+ width:35%;
  float:left;
 }
-.nav-show-right{
+.nav-show-middle{
  width:55%;
+ float:right;
+}
+.layui-nav {
+    float:right;
+}
+.avatar {
+    color: #A9B7B7;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+.avatar img {
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+}
+.avatar cite {
+    margin-left: 10px;
+}
+.nav-show-right{
+ width:10%;
  float:right;
 }
 .class-content{
