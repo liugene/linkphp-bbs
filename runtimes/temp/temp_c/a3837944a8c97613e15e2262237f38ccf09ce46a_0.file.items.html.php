@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-17 11:33:39
+/* Smarty version 3.1.31, created on 2017-09-17 14:42:21
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\forum\items.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59be5d933893d8_02229831',
+  'unifunc' => 'content_59be89cd4f7703_15274285',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a3837944a8c97613e15e2262237f38ccf09ce46a' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\forum\\items.html',
-      1 => 1505648015,
+      1 => 1505659330,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59be5d933893d8_02229831 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59be89cd4f7703_15274285 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -94,8 +94,6 @@ function content_59be5d933893d8_02229831 (Smarty_Internal_Template $_smarty_tpl)
         var layedit = layui.layedit;
         layedit.build('notic',{
             height: 180 //设置编辑器高度
-        });
-        element.on('tab(linkphpnav)',function(){
         });
     });
 <?php echo '</script'; ?>

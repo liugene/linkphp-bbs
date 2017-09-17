@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-17 07:35:05
+/* Smarty version 3.1.31, created on 2017-09-17 14:42:16
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\forum\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59be25a952aed0_91485797',
+  'unifunc' => 'content_59be89c8c206f8_48635229',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6a45a9658fb2f63044d51f8daf984cbc303c1d84' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\forum\\main.html',
-      1 => 1505633700,
+      1 => 1505659316,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59be25a952aed0_91485797 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59be89c8c206f8_48635229 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -230,15 +230,6 @@ function content_59be25a952aed0_91485797 (Smarty_Internal_Template $_smarty_tpl)
 ?>
 
 
-<?php echo '<script'; ?>
->
-    layui.use(['element'],function(){
-        var element = layui.element();
-        element.on('tab(linkphpnav)',function(){
-        });
-    });
-<?php echo '</script'; ?>
->
 </body>
 </html>
 <?php }

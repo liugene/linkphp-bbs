@@ -13,9 +13,9 @@
             <ul class="layui-nav" layui-filter="linkphpnav">
                 <li class="layui-nav-item"><a href="/">首页</a></li>
                 <li class="layui-nav-item"><a href="/index.php/main/forum/main">技术问答</a></li>
+                <li class="layui-nav-item"><a href="/index.php/main/wiki/main">WIKI手册</a></li>
                 <li class="layui-nav-item"><a href="https://github.com/osnote/LinkPHP" target="_blank">GitHub</a></li>
                 <li class="layui-nav-item"><a href="http://class.linkphp.cn" target="_blank">类库加载</a></li>
-                <li class="layui-nav-item"><a href="http://wiki.linkphp.cn" target="_blank">WIKI手册</a></li>
                 <li class="layui-nav-item">
                     <a href="javascript:;">个人中心</a>
                     <dl class="layui-nav-child">
@@ -29,3 +29,10 @@
     </div>
 </div>
 <hr style="margin:0;">
+<script>
+    layui.use(['element'],function(){
+        var element = layui.element();
+        element.on('tab(linkphpnav)',function(){
+        });
+    });
+</script>
