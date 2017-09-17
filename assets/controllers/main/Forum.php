@@ -22,4 +22,11 @@ class Forum extends Controller
         $this->assign('title',$title);
         $this->display();
     }
+
+    public function items()
+    {
+        $title = '帖子详细';
+        $this->assign('title',$title);
+        $this->display();
+    }
 }

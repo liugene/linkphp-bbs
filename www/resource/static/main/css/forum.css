@@ -157,3 +157,65 @@
         white-space: nowrap;
         word-wrap: normal;
     }
+
+/*帖子详细页面*/
+.item-content {
+    background: #fff;
+}
+ .item-content-box {
+     margin-top: 38px;
+     margin-bottom: 68px;
+     background: #fff;
+ }
+  .content-item {
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+      background: #fff;
+ }
+  .content-item-box {
+      width: 90%;
+      height: 56px;
+      overflow: hidden;
+      margin: 0 auto;
+      border-bottom: 1px solid #e7e7eb;
+      padding: 1em 0;
+  }
+.content-item-box-dec {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border-bottom: 1px solid #e7e7eb;
+    padding: 2.6em 0;
+}
+
+.post-last-time {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: .6em;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5.0em 0 .10em;
+    color: #9a9a9a;
+    font-size: 14px;
+}
+
+.content-item-box-repeat {
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 2.6em 0;
+}
+.content-item-box-notic {
+    width: 85%;
+    float: right;
+}
+.content-item-box-img {
+    width: 15%;
+    float: left;
+}
+.content-item-box-img img {
+    width: 60px;
+    height: 60px;
+}
