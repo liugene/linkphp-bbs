@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.31, created on 2017-09-18 05:08:45
+  from "C:\Object\linkphp-bbs\assets\views\main\public\header.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.31',
+  'unifunc' => 'content_59bf38bd278d04_26875068',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'e6b800e658afeab2b46a70a816b9697fec22dcb4' => 
+    array (
+      0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\public\\header.html',
+      1 => 1505704120,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_59bf38bd278d04_26875068 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <div id="nav">
     <div class="nav-show">
         <div class="nav-show-left">
@@ -29,10 +53,13 @@
     </div>
 </div>
 <hr style="margin:0;">
-<script>
+<?php echo '<script'; ?>
+>
     layui.use(['element'],function(){
         var element = layui.element;
         element.on('tab(linkphpnav)',function(){
         });
     });
-</script>
+<?php echo '</script'; ?>
+><?php }
+}

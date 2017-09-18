@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+    <meta name="LinkPHP" content="liugene" />
+    <link href="/resource/static/layui/css/layui.css" type="text/css" rel="stylesheet" />
+    <link href="/resource/static/main/css/index.css" type="text/css" rel="stylesheet" />
+    <link href="/resource/static/main/css/ask.css" type="text/css" rel="stylesheet" />
+    <link href="/resource/static/main/css/footer.css" type="text/css" rel="stylesheet" />
+    <script src="/resource/static/layui/layui.js"></script>
+    <script src="/resource/static/main/js/jquery.min.js"></script>
+
+    <title><{$title}>-LinkPHP开源框架</title>
+</head>
+
+<body>
+<!-- 头部  -->
+<{include file="public/header.html"}>
+<!-- 社区中间  -->
+
+<div class="content">
+    <div class="content-box">
+        <form class="layui-form" action="">
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <input type="text" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input title">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <input type="text" name="title" placeholder="标签,如:linkphp" autocomplete="off" class="layui-input tags">
+                </div>
+            </div>
+            <div class="layui-form-item layui-form-text">
+                <div class="layui-input-block">
+                    <textarea id="desc" name="desc" style="display: none;"></textarea>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<{include file="public/tool.html"}>
+
+</body>
+<script>
+    layui.use('layedit', function(){
+        var layedit = layui.layedit;
+        layedit.build('desc'); //建立编辑器
+    });
+</script>
+</html>
