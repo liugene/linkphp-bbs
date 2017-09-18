@@ -1,6 +1,10 @@
 body{
     background: #fff;
 }
+#nav {
+    overflow: hidden;
+    background: #393D49;
+}
 .content {
     width: 100%;
     height: auto;
