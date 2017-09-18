@@ -154,6 +154,11 @@ body{
      margin-top: 128px;
      margin-left: 68px;
  }
+  .right-repeat-img img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+  }
   .right-repeat-title {
       position:absolute;
       width:80%;
@@ -171,6 +176,11 @@ body{
      margin-top: 128px;
      margin-right: 68px;
  }
+  .left-repeat-img img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+  }
  .left-repeat-title {
      position:absolute;
      width:70%;

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-18 07:53:02
+/* Smarty version 3.1.31, created on 2017-09-18 11:43:05
   from "C:\Object\linkphp-bbs\assets\views\main\public\header.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59bf5f3e7bc787_83906684',
+  'unifunc' => 'content_59bf9529e57e06_30451839',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e6b800e658afeab2b46a70a816b9697fec22dcb4' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\public\\header.html',
-      1 => 1505713980,
+      1 => 1505727783,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59bf5f3e7bc787_83906684 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59bf9529e57e06_30451839 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="nav">
     <div class="nav-show">
@@ -36,7 +36,7 @@ function content_59bf5f3e7bc787_83906684 (Smarty_Internal_Template $_smarty_tpl)
         <div class="nav-show-middle">
             <ul class="layui-nav" layui-filter="linkphpnav">
                 <li class="layui-nav-item"><a href="/">首页</a></li>
-                <li class="layui-nav-item"><a href="/index.php/main/forum/main">技术问答</a></li>
+                <li class="layui-nav-item"><a href="/index.php/main/forum/main">社区</a></li>
                 <li class="layui-nav-item"><a href="/index.php/main/wiki/main">WIKI</a></li>
                 <li class="layui-nav-item"><a href="/index.php/main/blog/main">博客</a></li>
                 <li class="layui-nav-item"><a href="/index.php/main/library/main">类库</a></li>
