@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-18 11:21:42
+/* Smarty version 3.1.31, created on 2017-09-19 03:46:12
   from "C:\Object\linkphp-bbs\assets\views\main\home\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59bf9026cc5881_78144116',
+  'unifunc' => 'content_59c076e4169b80_16694417',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd951e05dd1918a17ce1619e16ae174e3f5724530' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\home\\main.html',
-      1 => 1505726499,
+      1 => 1505785567,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59bf9026cc5881_78144116 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c076e4169b80_16694417 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -204,40 +204,34 @@ function content_59bf9026cc5881_78144116 (Smarty_Internal_Template $_smarty_tpl)
 -->
 
 <!-- 合作展示  -->
-<!--
-<hr style="margin:0;">
-<div id="work">
- <div class="work-show">
-  <div class="work-show-item"></div>
-  <div class="work-show-item"></div>
-  <div class="work-show-item"></div>
-  <div class="work-show-item"></div>
-  <div class="work-show-item"></div>
- </div>
- <div class="work-show">
-  <div class="work-show-item"></div>
-  <div class="work-show-item"></div>
-  <div class="work-show-item"></div>
-  <div class="work-show-item"></div>
-  <div class="work-show-item"></div>
- </div>
- <div class="work-show work-show-space">
-  <fieldset class="layui-elem-field">
-   <legend>类库-支持以上 </legend>
-   <div class="layui-field-box">
-    LinkPHP开源类库支持以上
-   </div>
-  </fieldset>
- </div>
-</div>
--->
 
+<!--<hr style="margin:0;">
+<div class="library-box">
+    <div class="library-content">
+        <div class="library-content-child">
+        </div>
+    </div>
+    <div class="library-content">
+        <div class="library-content-child">
+        </div>
+    </div>
+    <div class="library-content">
+        <div class="library-content-child">
+        </div>
+    </div>
+    <div class="library-content">
+        <div class="library-content-child">
+        </div>
+    </div>
+</div>-->
 <!-- 底部  -->
 <hr style="margin:0;">
 <?php $_smarty_tpl->_subTemplateRender("file:public/footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
-
+<?php echo '<script'; ?>
+ src="/resource/static/main/js/index.js"><?php echo '</script'; ?>
+>
 <?php echo '<script'; ?>
 >
  $("body").quietflow({

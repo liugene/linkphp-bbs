@@ -1,6 +1,146 @@
+body {
+    background: #eee;
+    overflow-x: hidden;
+}
 .wiki-body {
     width: 100%;
     height: 680px;
     margin: 0 auto;
     background: #e2e2e2;
+    overflow: hidden;
 }
+.layui-side-scroll {
+    width: 200px;
+}
+.layui-header {
+    background: #393D49 !important;
+}
+.header {
+    background: #393D49 !important;
+}
+.wiki-footer {
+    width: 100%;
+    height:5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #eee;
+}
+.wiki-center{
+    width:100vw;
+    height:100vh;
+}
+#nav {
+    width: 100%;
+    height: 100%;
+}
+.nav-show {
+    height: 100%;
+}
+.wiki-center .header{
+    width:100%;
+    height:8%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background:black;
+}
+.wiki-center .body{
+    width:100%;
+    height:92%;
+    overflow-y: hidden;
+}
+.wiki-center .body .left{
+    width:20%;
+    height:100%;
+    float:left;
+    overflow-y: auto;
+    background: #fff;
+}
+.wiki-center .body .right{
+    width:80%;
+    height:95%;
+    float:right;
+}
+.wiki-center .body::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.wiki-center .body .left .wiki-left-box {
+    width: 90%;
+    height: auto;
+    margin: 38px auto;
+    overflow-x: hidden;
+}
+.wiki-center .body .left .wiki-left-box span {
+     display: inline-block;
+    width:100%;
+     border-bottom: none;
+     color: #364149;
+     background: 0 0;
+     text-overflow: ellipsis;
+     overflow: hidden;
+     white-space: nowrap;
+     position: relative;
+    font-size: 16px;
+ }
+.wiki-center .body .left .wiki-left-box span a{
+    display: block;
+    width:100%;
+    height:35px;
+    line-height: 35px;
+}
+.wiki-center .body .left .wiki-left-box span a .icon{
+    padding: 8px;
+    font-size: 12px;
+}
+.wiki-center .body .left .wiki-left-box span a::before {
+    /*content: '&#xe61a;';*/
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: greyscale;
+    color: #8d8d8d;
+    font-size: 14px;
+}
+.wiki-center .body .left .wiki-left-box span a:hover {
+    background-color: #eff1f3;
+}
+.wiki-center .body .left .wiki-left-box ul li {
+     display: block;
+     padding: 2px 32px;
+     border-bottom: none;
+    width:100%;
+     color: #364149;
+     background: 0 0;
+     text-overflow: ellipsis;
+     overflow: hidden;
+     white-space: nowrap;
+     position: relative;
+ }
+.wiki-center .body .left .wiki-left-box ul li a {
+    display: block;
+    width:100%;
+    height:35px;
+    line-height: 35px;
+    padding-left: 12px;
+}
+.wiki-center .body .left .wiki-left-box ul li a:hover {
+    background-color: #eff1f3;
+}
+.wiki-center .body .left .wiki-left-box .wiki-none {
+    display: none;
+}
+.wiki-center .body .left .wiki-left-box .wiki-active {
+    display: inline;
+}
+.wiki-center .body .left .wiki-left-box .wiki-show .icon-active {
+    display: inline;
+}
+.wiki-center .body .left .wiki-left-box .wiki-show .icon-none {
+    display: none;
+}
+
+

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-18 11:43:05
+/* Smarty version 3.1.31, created on 2017-09-19 05:26:10
   from "C:\Object\linkphp-bbs\assets\views\main\public\header.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59bf9529e57e06_30451839',
+  'unifunc' => 'content_59c08e521fe289_76659044',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e6b800e658afeab2b46a70a816b9697fec22dcb4' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\public\\header.html',
-      1 => 1505727783,
+      1 => 1505791567,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59bf9529e57e06_30451839 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c08e521fe289_76659044 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="nav">
     <div class="nav-show">
