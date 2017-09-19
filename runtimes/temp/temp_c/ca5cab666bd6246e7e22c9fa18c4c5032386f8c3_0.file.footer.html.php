@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-16 14:32:22
+/* Smarty version 3.1.31, created on 2017-09-19 12:09:25
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\public\footer.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59bd35f6052209_70628894',
+  'unifunc' => 'content_59c108f5d0ad24_53254883',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ca5cab666bd6246e7e22c9fa18c4c5032386f8c3' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\public\\footer.html',
-      1 => 1505571946,
+      1 => 1505822639,
       2 => 'file',
     ),
   ),
@@ -20,40 +20,40 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59bd35f6052209_70628894 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c108f5d0ad24_53254883 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="footer">
  <div class="footer-content">
   <div class="footer-content-item">
    <ul>
-    <li>关于LinkPHP</li>
-    <li>关于LinkPHP</li>
-    <li>关于LinkPHP</li>
-    <li>关于LinkPHP</li>
+    <li>技术问答</li>
+    <li>wiki手册</li>
+    <li>作者博客</li>
+    <li>类库中心</li>
    </ul>
   </div>
   <div class="footer-content-item">
    <ul>
-     <li>关于LinkPHP</li>
-     <li>关于LinkPHP</li>
-     <li>关于LinkPHP</li>
-     <li>关于LinkPHP</li>
+     <li>GitHub</li>
+     <li>码云</li>
+     <li>composer下载</li>
+     <li>本站下载</li>
    </ul>
   </div>
   <div class="footer-content-item">
    <ul>
-     <li>关于LinkPHP</li>
-     <li>关于LinkPHP</li>
-     <li>关于LinkPHP</li>
-     <li>关于LinkPHP</li>
+     <li>框架教程</li>
+     <li>类库教程</li>
+     <li>Api接口</li>
+     <li>快速入门</li>
    </ul>
   </div>
   <div class="footer-content-item">
    <ul>
-     <li>关于LinkPHP</li>
-     <li>关于LinkPHP</li>
-     <li>关于LinkPHP</li>
-     <li>关于LinkPHP</li>
+     <li>Linux教程</li>
+     <li>网站搭建</li>
+     <li>PHP</li>
+     <li>Go</li>
    </ul>
   </div>
  </div>

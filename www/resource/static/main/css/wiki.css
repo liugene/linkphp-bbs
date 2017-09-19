@@ -1,5 +1,4 @@
 body {
-    background: #eee;
     overflow-x: hidden;
 }
 .wiki-body {
@@ -29,6 +28,7 @@ body {
 .wiki-center{
     width:100vw;
     height:100vh;
+    overflow: hidden;
 }
 #nav {
     width: 100%;
@@ -63,6 +63,7 @@ body {
     width:80%;
     height:95%;
     float:right;
+    background: #fff;
 }
 .wiki-center .body::after{
     content:"";

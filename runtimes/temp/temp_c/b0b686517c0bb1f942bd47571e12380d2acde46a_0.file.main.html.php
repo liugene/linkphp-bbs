@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-17 00:28:38
+/* Smarty version 3.1.31, created on 2017-09-19 12:09:25
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\home\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59bdc1b61e17a6_84248919',
+  'unifunc' => 'content_59c108f5cbcb17_51840163',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b0b686517c0bb1f942bd47571e12380d2acde46a' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\home\\main.html',
-      1 => 1505573338,
+      1 => 1505822639,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59bdc1b61e17a6_84248919 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c108f5cbcb17_51840163 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -60,9 +60,9 @@ function content_59bdc1b61e17a6_84248919 (Smarty_Internal_Template $_smarty_tpl)
   </div>
   <div class="class-content-item">
     <a href="http://class.linkphp.cn" target="_blank" class="layui-btn layui-btn-big layui-btn-radius">加载类库</a>
-    <a href="httP://wiki.linkphp.cn" target="_blank" class="layui-btn layui-btn-big layui-btn-radius">帮助手册</a>
-    <a href="http://i.linkphp.cn" target="_blank" class="layui-btn layui-btn-primary layui-btn-big layui-btn-radius">技术问答社区</a>
-    <a href="http://api.linkphp.cn" target="_blank" class="layui-btn layui-btn-big layui-btn-radius layui-btn-warm">API调用</a>
+    <a href="/index.php/main/wiki/main" class="layui-btn layui-btn-big layui-btn-radius">帮助手册</a>
+    <a href="/index.php/main/forum/main" class="layui-btn layui-btn-primary layui-btn-big layui-btn-radius">技术问答社区</a>
+    <a href="http://github.com/liugene/linkphp" target="_blank" class="layui-btn layui-btn-big layui-btn-radius layui-btn-warm">GitHub</a>
   </div>
   <div class="class-content-font">
    当前类库大小：15个 | 最新更新于: 2017-03-19
@@ -75,6 +75,115 @@ function content_59bdc1b61e17a6_84248919 (Smarty_Internal_Template $_smarty_tpl)
 <hr style="margin:0;">
 <!-- 首页中间  -->
 <div id="center">
+    <div class="center-box">
+        <div class="center-show">
+            <div class="right-repeat-img">
+                <img src="//q.qlogo.cn/qqapp/101235792/A645D3B0234D71AE1EB9B2366399817D/100">
+            </div>
+            <div class="center-talk-right">
+                <div class="right-repeat-title">
+                    <a href="javascript:;">响应国家政策，本站评论需实名认证后使用</a>
+                </div>
+                <div class="right-repeat-dec">
+                    <p>
+                        根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
+                        不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神
+                        即日起在树洞博客评论需在本页面实名认证后才能进行。 认证流程 打开https://r […]
+                    </p>
+                </div>
+                <img src="/resource/static/main/img/talk.png">
+            </div>
+        </div>
+        <div class="center-show">
+            <div class="left-repeat-img">
+                <img src="//q.qlogo.cn/qqapp/101235792/A645D3B0234D71AE1EB9B2366399817D/100">
+            </div>
+            <div class="center-talk-left">
+                <div class="left-repeat-title">
+                    <a href="javascript:;">响应国家政策，本站评论需实名认证后使用</a>
+                </div>
+                <div class="left-repeat-dec">
+                    <p>
+                        根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
+                        不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神
+                    </p>
+                </div>
+                <img src="/resource/static/main/img/talk-repeat.png">
+            </div>
+        </div>
+        <div class="center-show">
+            <div class="right-repeat-img">
+                <img src="//q.qlogo.cn/qqapp/101235792/A645D3B0234D71AE1EB9B2366399817D/100">
+            </div>
+            <div class="center-talk-right">
+                <div class="right-repeat-title">
+                    <a href="javascript:;">响应国家政策，本站评论需实名认证后使用</a>
+                </div>
+                <div class="right-repeat-dec">
+                    <p>
+                        根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
+                        不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神
+                        即日起在树洞博客评论需在本页面实名认证后才能进行。 认证流程 打开https://r […]
+                    </p>
+                </div>
+                <img src="/resource/static/main/img/talk.png">
+            </div>
+        </div>
+        <div class="center-show">
+            <div class="left-repeat-img">
+                <img src="//q.qlogo.cn/qqapp/101235792/A645D3B0234D71AE1EB9B2366399817D/100">
+            </div>
+            <div class="center-talk-left">
+                <div class="left-repeat-title">
+                    <a href="javascript:;">响应国家政策，本站评论需实名认证后使用</a>
+                </div>
+                <div class="left-repeat-dec">
+                    <p>
+                        根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
+                        不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神
+                    </p>
+                </div>
+                <img src="/resource/static/main/img/talk-repeat.png">
+            </div>
+        </div>
+        <div class="center-show">
+            <div class="right-repeat-img">
+                <img src="//q.qlogo.cn/qqapp/101235792/A645D3B0234D71AE1EB9B2366399817D/100">
+            </div>
+            <div class="center-talk-right">
+                <div class="right-repeat-title">
+                    <a href="javascript:;">响应国家政策，本站评论需实名认证后使用</a>
+                </div>
+                <div class="right-repeat-dec">
+                    <p>
+                        根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
+                        不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神
+                        即日起在树洞博客评论需在本页面实名认证后才能进行。 认证流程 打开https://r […]
+                    </p>
+                </div>
+                <img src="/resource/static/main/img/talk.png">
+            </div>
+        </div>
+        <div class="center-show">
+            <div class="left-repeat-img">
+                <img src="//q.qlogo.cn/qqapp/101235792/A645D3B0234D71AE1EB9B2366399817D/100">
+            </div>
+            <div class="center-talk-left">
+                <div class="left-repeat-title">
+                    <a href="javascript:;">响应国家政策，本站评论需实名认证后使用</a>
+                </div>
+                <div class="left-repeat-dec">
+                    <p>
+                        根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
+                        不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神
+                    </p>
+                </div>
+                <img src="/resource/static/main/img/talk-repeat.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!--<div id="center">
  <div class="center-show">
   <div class="center-show-item"><i class="layui-icon" style="font-size:230px; color:#5FB878;">&#xe635;</i></div>
   <div class="center-show-item"><i class="layui-icon" style="font-size:230px; color:#F7B824;">&#xe620;</i></div>
@@ -92,54 +201,45 @@ function content_59bdc1b61e17a6_84248919 (Smarty_Internal_Template $_smarty_tpl)
   </div>
  </div>
 </div>
-
-<!-- 合作展示  -->
-<!--
-<hr style="margin:0;">
-<div id="work">
- <div class="work-show">
-  <div class="work-show-item"></div>
-  <div class="work-show-item"></div>
-  <div class="work-show-item"></div>
-  <div class="work-show-item"></div>
-  <div class="work-show-item"></div>
- </div>
- <div class="work-show">
-  <div class="work-show-item"></div>
-  <div class="work-show-item"></div>
-  <div class="work-show-item"></div>
-  <div class="work-show-item"></div>
-  <div class="work-show-item"></div>
- </div>
- <div class="work-show work-show-space">
-  <fieldset class="layui-elem-field">
-   <legend>类库-支持以上 </legend>
-   <div class="layui-field-box">
-    LinkPHP开源类库支持以上
-   </div>
-  </fieldset>
- </div>
-</div>
 -->
 
+<!-- 合作展示  -->
+
+<!--<hr style="margin:0;">
+<div class="library-box">
+    <div class="library-content">
+        <div class="library-content-child">
+        </div>
+    </div>
+    <div class="library-content">
+        <div class="library-content-child">
+        </div>
+    </div>
+    <div class="library-content">
+        <div class="library-content-child">
+        </div>
+    </div>
+    <div class="library-content">
+        <div class="library-content-child">
+        </div>
+    </div>
+</div>-->
 <!-- 底部  -->
 <hr style="margin:0;">
 <?php $_smarty_tpl->_subTemplateRender("file:public/footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
-
+<?php echo '<script'; ?>
+ src="/resource/static/main/js/index.js"><?php echo '</script'; ?>
+>
 <?php echo '<script'; ?>
 >
- $("#content").quietflow({
+ $("body").quietflow({
   theme:"bouncingBalls",
   backgroundCol : "#393D49",
-  specificColors : ["#2F4056", "#d2d2d2","#333","#5FB878"]
+  specificColors : ["#2F4056", "#d2d2d2","#333","#5FB878","#e2e2e2","#01AAED",
+      "#FF5722","#FFB800","#eeeeee","#90EE90","#7CFC00","#7B68EE","#B03060","#CDCD00"]
  // speed : 100
-})
-layui.use(['element'],function(){
-	var element = layui.element();
-	element.on('tab(linkphpnav)',function(){
-	});
 });
 <?php echo '</script'; ?>
 >

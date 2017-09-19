@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-17 14:42:16
+/* Smarty version 3.1.31, created on 2017-09-19 12:10:05
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\forum\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59be89c8c206f8_48635229',
+  'unifunc' => 'content_59c1091d5dbff7_36560999',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6a45a9658fb2f63044d51f8daf984cbc303c1d84' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\forum\\main.html',
-      1 => 1505659316,
+      1 => 1505740920,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59be89c8c206f8_48635229 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c1091d5dbff7_36560999 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -59,7 +59,7 @@ function content_59be89c8c206f8_48635229 (Smarty_Internal_Template $_smarty_tpl)
                     <span class="top-font">全部帖子</span>
                 </div>
                 <div class="left-top-right">
-                    <a class="layui-btn">
+                    <a class="layui-btn" href="/index.php/main/ask/main">
                         <i class="layui-icon">&#xe642;</i> 发表新帖
                     </a>
                 </div>
