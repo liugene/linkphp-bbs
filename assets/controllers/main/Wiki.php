@@ -22,4 +22,9 @@ class Wiki extends Controller
         $this->assign('title',$title);
         $this->display();
     }
+
+    public function view()
+    {
+        $this->display();
+    }
 }

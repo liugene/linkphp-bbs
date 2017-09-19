@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-19 08:33:32
+/* Smarty version 3.1.31, created on 2017-09-19 09:34:25
   from "C:\Object\linkphp-bbs\assets\views\main\wiki\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c0ba3c549e81_69541514',
+  'unifunc' => 'content_59c0c88198bc00_74091544',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '30f3baef6122202f6d21ea9e2036d3ee3a785b28' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\wiki\\main.html',
-      1 => 1505802809,
+      1 => 1505806457,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/header.html' => 2,
   ),
 ),false)) {
-function content_59c0ba3c549e81_69541514 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c0c88198bc00_74091544 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -158,7 +158,7 @@ function content_59c0ba3c549e81_69541514 (Smarty_Internal_Template $_smarty_tpl)
             </div>
         </div>
         <div class="right">
-            <iframe src="demoAdmin" id="demoAdmin" style="width: 100%; height: 99%;" frameborder="0"></iframe>
+            <iframe src="/index.php/main/wiki/view" id="demoAdmin" style="width: 100%; height: 99%;" frameborder="0"></iframe>
             <div class="wiki-footer">
                 © linkphp.cn - php api框架
                 </div>

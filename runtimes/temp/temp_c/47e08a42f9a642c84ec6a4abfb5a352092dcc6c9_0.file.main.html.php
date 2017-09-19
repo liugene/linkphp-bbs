@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-18 04:29:35
+/* Smarty version 3.1.31, created on 2017-09-19 09:20:35
   from "C:\Object\linkphp-bbs\assets\views\main\ask\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59bf2f8f5e7b81_37328533',
+  'unifunc' => 'content_59c0c543e85303_37471389',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '47e08a42f9a642c84ec6a4abfb5a352092dcc6c9' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\ask\\main.html',
-      1 => 1505701772,
+      1 => 1505805634,
       2 => 'file',
     ),
   ),
@@ -22,13 +22,17 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/tool.html' => 1,
   ),
 ),false)) {
-function content_59bf2f8f5e7b81_37328533 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c0c543e85303_37471389 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html" charset="utf-8" />
     <meta name="LinkPHP" content="liugene" />
+    <?php echo '<script'; ?>
+ src="/resource/static/main/js/jquery.min.js"><?php echo '</script'; ?>
+>
+    <link href="/resource/static/editor.md/css/editormd.min.css" type="text/css" rel="stylesheet" />
     <link href="/resource/static/layui/css/layui.css" type="text/css" rel="stylesheet" />
     <link href="/resource/static/main/css/index.css" type="text/css" rel="stylesheet" />
     <link href="/resource/static/main/css/ask.css" type="text/css" rel="stylesheet" />
@@ -37,7 +41,7 @@ function content_59bf2f8f5e7b81_37328533 (Smarty_Internal_Template $_smarty_tpl)
  src="/resource/static/layui/layui.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="/resource/static/main/js/jquery.min.js"><?php echo '</script'; ?>
+ src="/resource/static/editor.md/editormd.min.js"><?php echo '</script'; ?>
 >
 
     <title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
@@ -65,7 +69,7 @@ function content_59bf2f8f5e7b81_37328533 (Smarty_Internal_Template $_smarty_tpl)
                 </div>
             </div>
             <div class="layui-form-item layui-form-text">
-                <div class="layui-input-block">
+                <div id="markdown">
                     <textarea id="desc" name="desc" style="display: none;"></textarea>
                 </div>
             </div>
@@ -79,10 +83,19 @@ function content_59bf2f8f5e7b81_37328533 (Smarty_Internal_Template $_smarty_tpl)
 </body>
 <?php echo '<script'; ?>
 >
-    layui.use('layedit', function(){
-        var layedit = layui.layedit;
-        layedit.build('desc'); //建立编辑器
+    var markdown;
+    $(function() {
+        markdown = editormd("markdown", {
+            width   : "99.5%",
+            height  : 380,
+            syncScrolling : "single",
+            path    : "/resource/static/editor.md/lib/"
+        });
     });
+//    layui.use('layedit', function(){
+//        var layedit = layui.layedit;
+//        layedit.build('desc'); //建立编辑器
+//    });
 <?php echo '</script'; ?>
 >
 </html>
