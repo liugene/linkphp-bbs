@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-20 07:55:52
+/* Smarty version 3.1.31, created on 2017-09-20 09:12:58
   from "C:\Object\linkphp-bbs\assets\views\main\home\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c202e8395305_58608275',
+  'unifunc' => 'content_59c214facd0783_39396907',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd951e05dd1918a17ce1619e16ae174e3f5724530' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\home\\main.html',
-      1 => 1505886950,
+      1 => 1505891575,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59c202e8395305_58608275 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c214facd0783_39396907 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -66,14 +66,14 @@ function content_59c202e8395305_58608275 (Smarty_Internal_Template $_smarty_tpl)
                 <a href="http://github.com/liugene/linkphp" target="_blank" class="layui-btn layui-btn-big layui-btn-radius layui-btn-warm">GitHub</a>
             </div>
             <div class="class-content-font">
-                当前类库大小：15个 | 最新更新于: 2017-03-19
+                当前类库大小：<span class="layui-badge layui-bg-green"> 15</span>个 | 最新更新于: <span class="layui-badge layui-bg-blue">2017-09-19</span>
             </div>
         </div>
     </div>
 
     <div class="clear">
     </div>
-    <hr style="margin:0;">
+    <div class="border"></div>
     <!-- 首页中间  -->
     <div id="center">
         <div class="center-box">
@@ -226,7 +226,7 @@ function content_59c202e8395305_58608275 (Smarty_Internal_Template $_smarty_tpl)
         </div>
     </div>-->
     <!-- 底部  -->
-    <hr style="margin:0;">
+    <div class="border"></div>
     <?php $_smarty_tpl->_subTemplateRender("file:public/footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 

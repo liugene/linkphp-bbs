@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-19 05:26:10
+/* Smarty version 3.1.31, created on 2017-09-20 08:32:01
   from "C:\Object\linkphp-bbs\assets\views\main\public\header.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c08e521fe289_76659044',
+  'unifunc' => 'content_59c20b6122dd07_04670223',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e6b800e658afeab2b46a70a816b9697fec22dcb4' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\public\\header.html',
-      1 => 1505791567,
+      1 => 1505889101,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59c08e521fe289_76659044 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c20b6122dd07_04670223 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="nav">
     <div class="nav-show">
@@ -52,7 +52,8 @@ function content_59c08e521fe289_76659044 (Smarty_Internal_Template $_smarty_tpl)
         </div>
     </div>
 </div>
-<hr style="margin:0;">
+<div class="border"></div>
+<!--<hr style="margin:0;">-->
 <?php echo '<script'; ?>
 >
     layui.use(['element'],function(){

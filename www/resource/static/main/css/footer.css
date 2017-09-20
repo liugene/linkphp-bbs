@@ -1,13 +1,13 @@
 #footer{
- width:100%;
- height:auto;
- z-index: 1;
- position: relative;
+    width:100%;
+    height:auto;
+    z-index: 1;
+    position: relative;
 }
 #footer .footer-content{
- padding: 40px 0;
- overflow: hidden;
- border-bottom: 1px solid #333;
+    padding: 40px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #666;
     width: 1120px;
     margin-right: auto;
     margin-left: auto;
@@ -17,9 +17,9 @@
     margin-left: 0!important;
 }
 #footer .footer-content .footer-content-item{
- width: 350px;
- display:block;
- float: left;
+    width: 350px;
+    display:block;
+    float: left;
     font-size: 12px;
     color: #666;
     margin-left: 35px;
