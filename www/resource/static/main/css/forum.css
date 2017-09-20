@@ -227,3 +227,27 @@
     width: 60px;
     height: 60px;
 }
+
+.cats {
+    background-color: #393D49;
+    font-size: 16px;
+    height: 26px;
+}
+.cats .cats-more {
+    display: none;
+    background-color: #393D49;
+    font-size: 16px;
+    height: 26px;
+}
+.cats-tool {
+    width: 48px;
+    height: 32px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.cats-tool .cats-tool-icon {
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    /*background-image: url("/resource/static/main/img/down.png");*/
+}

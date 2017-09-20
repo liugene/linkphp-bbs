@@ -20,6 +20,16 @@
     <{include file="public/header.html"}>
     <!-- 社区中间  -->
 
+    <div class="cats"></div>
+    <div class="cats-more"></div>
+    <div class="cats-tool">
+        <div class="cats-tool-icon">
+            <a href="javascript:;" class="tool">
+                <img src="/resource/static/main/img/down.png" >
+            </a>
+        </div>
+    </div>
+
     <div class="content">
         <div class="content-box">
             <div class="left-box">
@@ -198,6 +208,11 @@
     <{include file="public/footer.html"}>
 </div>
 
+<script>
+    $(document).on('click','.tool',function(){
+        $('.cats-more').toggle();
+    })
+</script>
 
 </body>
 </html>

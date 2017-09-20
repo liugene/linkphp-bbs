@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-19 12:31:43
+/* Smarty version 3.1.31, created on 2017-09-20 12:51:30
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\ask\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c10e2fc35fe9_96694872',
+  'unifunc' => 'content_59c264523faab9_85295972',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fc52a3efa9cf7bb65c55457fdc6f411b8701ef81' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\ask\\main.html',
-      1 => 1505822639,
+      1 => 1505910859,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/tool.html' => 1,
   ),
 ),false)) {
-function content_59c10e2fc35fe9_96694872 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c264523faab9_85295972 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -49,35 +49,38 @@ function content_59c10e2fc35fe9_96694872 (Smarty_Internal_Template $_smarty_tpl)
 </head>
 
 <body>
-<!-- 头部  -->
-<?php $_smarty_tpl->_subTemplateRender("file:public/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+<div id="body">
+    <!-- 头部  -->
+    <?php $_smarty_tpl->_subTemplateRender("file:public/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
-<!-- 社区中间  -->
+    <!-- 社区中间  -->
 
-<div class="content">
-    <div class="content-box">
-        <form class="layui-form" action="">
-            <div class="layui-form-item">
-                <div class="layui-input-block">
-                    <input type="text" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input title">
+    <div class="content">
+        <div class="content-box">
+            <form class="layui-form" action="">
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <input type="text" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input title">
+                    </div>
                 </div>
-            </div>
-            <div class="layui-form-item">
-                <div class="layui-input-block">
-                    <input type="text" name="title" placeholder="标签,如:linkphp" autocomplete="off" class="layui-input tags">
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <input type="text" name="title" placeholder="标签,如:linkphp" autocomplete="off" class="layui-input tags">
+                    </div>
                 </div>
-            </div>
-            <div class="layui-form-item layui-form-text">
-                <div id="markdown">
-                    <textarea id="desc" name="desc" style="display: none;"></textarea>
+                <div class="layui-form-item layui-form-text">
+                    <div id="markdown">
+                        <textarea id="desc" name="desc" style="display: none;"></textarea>
+                    </div>
                 </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
-</div>
-<?php $_smarty_tpl->_subTemplateRender("file:public/tool.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+    <?php $_smarty_tpl->_subTemplateRender("file:public/tool.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
+
+</div>
 
 
 </body>

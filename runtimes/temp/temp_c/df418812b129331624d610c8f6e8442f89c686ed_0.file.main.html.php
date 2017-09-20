@@ -1,27 +1,27 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-19 12:10:13
+/* Smarty version 3.1.31, created on 2017-09-20 13:18:16
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\wiki\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c1092523a0f9_90220997',
+  'unifunc' => 'content_59c26a98169d32_25271299',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'df418812b129331624d610c8f6e8442f89c686ed' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\wiki\\main.html',
-      1 => 1505822639,
+      1 => 1505913489,
       2 => 'file',
     ),
   ),
   'includes' => 
   array (
-    'file:public/header.html' => 2,
+    'file:public/header.html' => 1,
   ),
 ),false)) {
-function content_59c1092523a0f9_90220997 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c26a98169d32_25271299 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -44,51 +44,10 @@ function content_59c1092523a0f9_90220997 (Smarty_Internal_Template $_smarty_tpl)
 </head>
 
 <body>
-<!-- wiki中间  -->
-<!--<div class="layui-layout layui-layout-admin">-->
-    <!--&lt;!&ndash; 头部  &ndash;&gt;-->
-    <!--<div class="layui-header">-->
-        <!--<?php $_smarty_tpl->_subTemplateRender("file:public/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
-?>
--->
-    <!--</div>-->
-    <!--<div class="layui-side layui-bg-black">-->
-        <!--<div class="layui-side-scroll">-->
-            <!--&lt;!&ndash; 左侧导航区域（可配合layui已有的垂直导航） &ndash;&gt;-->
-            <!--<ul class="layui-nav layui-nav-tree"  lay-filter="test">-->
-                <!--<li class="layui-nav-item layui-nav-itemed">-->
-                    <!--<a class="" href="javascript:;">Wiki</a>-->
-                    <!--<dl class="layui-nav-child">-->
-                        <!--<dd><a href="javascript:;">列表一</a></dd>-->
-                        <!--<dd><a href="javascript:;">列表二</a></dd>-->
-                        <!--<dd><a href="javascript:;">列表三</a></dd>-->
-                        <!--<dd><a href="">超链接</a></dd>-->
-                    <!--</dl>-->
-                <!--</li>-->
-                <!--<li class="layui-nav-item">-->
-                    <!--<a href="javascript:;">解决方案</a>-->
-                    <!--<dl class="layui-nav-child">-->
-                        <!--<dd><a href="javascript:;">列表一</a></dd>-->
-                        <!--<dd><a href="javascript:;">列表二</a></dd>-->
-                        <!--<dd><a href="">超链接</a></dd>-->
-                    <!--</dl>-->
-                <!--</li>-->
-                <!--<li class="layui-nav-item"><a href="">云市场</a></li>-->
-                <!--<li class="layui-nav-item"><a href="">发布商品</a></li>-->
-            <!--</ul>-->
-        <!--</div>-->
-    <!--</div>-->
-    <!--<div class="layui-body">-->
-        <!--<iframe src="layuiAdmin.html?from=demo" id="demoAdmin" style="width: 100%; height: 99%;" frameborder="0"></iframe>-->
-    <!--</div>-->
 
-    <!--<div class="layui-footer">-->
-        <!--© linkphp.cn - php api框架-->
-    <!--</div>-->
- <!--</div>-->
 <div class="wiki-center">
     <div class="header">
-        <?php $_smarty_tpl->_subTemplateRender("file:public/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, true);
+        <?php $_smarty_tpl->_subTemplateRender("file:public/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
     </div>
@@ -161,10 +120,11 @@ function content_59c1092523a0f9_90220997 (Smarty_Internal_Template $_smarty_tpl)
             <iframe src="/index.php/main/wiki/view" id="demoAdmin" style="width: 100%; height: 99%;" frameborder="0"></iframe>
             <div class="wiki-footer">
                 © linkphp.cn - php api框架
-                </div>
+            </div>
         </div>
     </div>
 </div>
+
 <!-- 底部  -->
 <?php echo '<script'; ?>
  src="/resource/static/main/js/wiki.js"><?php echo '</script'; ?>
