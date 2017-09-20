@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-19 03:58:02
+/* Smarty version 3.1.31, created on 2017-09-20 07:30:49
   from "C:\Object\linkphp-bbs\assets\views\main\public\footer.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c079aa949587_01672236',
+  'unifunc' => 'content_59c1fd09a2cb08_93107121',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ee796171988e98691cbb393a1aee320a0fb64cb6' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\public\\footer.html',
-      1 => 1505786278,
+      1 => 1505885447,
       2 => 'file',
     ),
   ),
@@ -20,42 +20,68 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59c079aa949587_01672236 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c1fd09a2cb08_93107121 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="footer">
  <div class="footer-content">
-  <div class="footer-content-item">
+  <aside class="footer-content-item recent_entries">
+      <h3 class="footer-content-item-title">近期文章</h3>
    <ul>
-    <li>技术问答</li>
-    <li>wiki手册</li>
-    <li>作者博客</li>
-    <li>类库中心</li>
+       <li><a href="#">响应国家政策，本站评论需实名认证后使用</a></li>
+       <li><a href="#">IOS 配置 微信 JS SDK 报 invalid signature签名错误</a></li>
+       <li><a href="#">JS原生一步步实现前端路由和单页面应用</a></li>
+       <li><a href="#">150行代码教你实现一个低配版的MVVM库（2）- 代码篇</a></li>
+       <li><a href="#">150行代码教你实现一个低配版的MVVM库（1）- 原理篇</a></li>
    </ul>
-  </div>
-  <div class="footer-content-item">
+  </aside>
+  <aside class="footer-content-item links">
+      <h3 class="footer-content-item-title">我的基友</h3>
    <ul>
-     <li>GitHub</li>
-     <li>码云</li>
-     <li>composer下载</li>
-     <li>本站下载</li>
+       <li><a href="#">GitHub</a></li>
+       <li><a href="#">码云</a></li>
+       <li><a href="#">composer下载</a></li>
+       <li><a href="#">本站下载</a></li>
+       <li><a href="#">GitHub</a></li>
+       <li><a href="#">码云</a></li>
+       <li><a href="#">composer下载</a></li>
+       <li><a href="#">本站下载</a></li>
+       <li><a href="#">GitHub</a></li>
+       <li><a href="#">码云</a></li>
+       <li><a href="#">composer下载</a></li>
+       <li><a href="#">本站下载</a></li>
+       <li><a href="#">GitHub</a></li>
+       <li><a href="#">码云</a></li>
+       <li><a href="#">composer下载</a></li>
+       <li><a href="#">本站下载</a></li>
+       <li><a href="#">GitHub</a></li>
+       <li><a href="#">码云</a></li>
+       <li><a href="#">composer下载</a></li>
+       <li><a href="#">本站下载</a></li>
+       <li><a href="#">GitHub</a></li>
+       <li><a href="#">码云</a></li>
+       <li><a href="#">composer下载</a></li>
+       <li><a href="#">本站下载</a></li>
+       <li><a href="#">GitHub</a></li>
+       <li><a href="#">码云</a></li>
+       <li><a href="#">composer下载</a></li>
+       <li><a href="#">本站下载</a></li>
+       <li><a href="#">GitHub</a></li>
+       <li><a href="#">码云</a></li>
+       <li><a href="#">composer下载</a></li>
+       <li><a href="#">本站下载</a></li>
+
+
    </ul>
-  </div>
-  <div class="footer-content-item">
+  </aside>
+  <aside class="footer-content-item helps">
+      <h3 class="footer-content-item-title last-box">WIKI教程中心</h3>
    <ul>
-     <li>框架教程</li>
-     <li>类库教程</li>
-     <li>Api接口</li>
-     <li>快速入门</li>
+       <li><a href="#">框架教程</a></li>
+       <li><a href="#">类库教程</a></li>
+       <li><a href="#">Api接口</a></li>
+       <li><a href="#">快速入门</a></li>
    </ul>
-  </div>
-  <div class="footer-content-item">
-   <ul>
-     <li>Linux教程</li>
-     <li>网站搭建</li>
-     <li>PHP</li>
-     <li>Go</li>
-   </ul>
-  </div>
+  </aside>
  </div>
  <div class="footer-content-pro">
    LinkPHP类库作用说明:

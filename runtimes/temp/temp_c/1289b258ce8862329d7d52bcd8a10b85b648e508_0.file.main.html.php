@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-18 05:47:05
+/* Smarty version 3.1.31, created on 2017-09-20 08:00:04
   from "C:\Object\linkphp-bbs\assets\views\main\blog\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59bf41b9cc1a05_14586172',
+  'unifunc' => 'content_59c203e4b17103_96947841',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1289b258ce8862329d7d52bcd8a10b85b648e508' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\blog\\main.html',
-      1 => 1505706423,
+      1 => 1505887091,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59bf41b9cc1a05_14586172 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c203e4b17103_96947841 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -45,66 +45,70 @@ function content_59bf41b9cc1a05_14586172 (Smarty_Internal_Template $_smarty_tpl)
 </head>
 
 <body>
-<!-- 头部  -->
-<?php $_smarty_tpl->_subTemplateRender("file:public/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+
+<div id="body">
+    <!-- 头部  -->
+    <?php $_smarty_tpl->_subTemplateRender("file:public/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
-<!-- 社区中间  -->
+    <!-- 社区中间  -->
 
-<div class="content">
-    <div class="content-box">
-        <div class="blog-content">
-            <div class="blog-img">
-                <img src="/">
+    <div class="content">
+        <div class="content-box">
+            <div class="blog-content">
+                <div class="blog-img">
+                    <img src="/">
+                </div>
+                <header class="blog-title">
+                    <a href="#" target="_blank">响应国家政策，本站评论需实名认证后使用</a>
+                </header>
+                <div class="blog-dec">
+                    <p>
+                        根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
+                        不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神、维护国家安全和公共利益、
+                        弘扬社会主义核心价值观，即日起在树洞博客评论需在本页面实名认证后才能进行。 认证流程 打开https://r […]
+                    </p>
+                </div>
             </div>
-            <header class="blog-title">
-                <a href="#" target="_blank">响应国家政策，本站评论需实名认证后使用</a>
-            </header>
-            <div class="blog-dec">
-                <p>
-                    根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
-                    不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神、维护国家安全和公共利益、
-                    弘扬社会主义核心价值观，即日起在树洞博客评论需在本页面实名认证后才能进行。 认证流程 打开https://r […]
-                </p>
+            <div class="blog-content">
+                <div class="blog-img">
+                    <img src="/">
+                </div>
+                <header class="blog-title">
+                    <a href="#" target="_blank">响应国家政策，本站评论需实名认证后使用</a>
+                </header>
+                <div class="blog-dec">
+                    <p>
+                        根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
+                        不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神、维护国家安全和公共利益、
+                        弘扬社会主义核心价值观，即日起在树洞博客评论需在本页面实名认证后才能进行。 认证流程 打开https://r […]
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="blog-content">
-            <div class="blog-img">
-                <img src="/">
-            </div>
-            <header class="blog-title">
-                <a href="#" target="_blank">响应国家政策，本站评论需实名认证后使用</a>
-            </header>
-            <div class="blog-dec">
-                <p>
-                    根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
-                    不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神、维护国家安全和公共利益、
-                    弘扬社会主义核心价值观，即日起在树洞博客评论需在本页面实名认证后才能进行。 认证流程 打开https://r […]
-                </p>
-            </div>
-        </div>
-        <div class="blog-content">
-            <div class="blog-img">
-                <img src="/">
-            </div>
-            <header class="blog-title">
-                <a href="#" target="_blank">响应国家政策，本站评论需实名认证后使用</a>
-            </header>
-            <div class="blog-dec">
-                <p>
-                    根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
-                    不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神、维护国家安全和公共利益、
-                    弘扬社会主义核心价值观，即日起在树洞博客评论需在本页面实名认证后才能进行。 认证流程 打开https://r […]
-                </p>
+            <div class="blog-content">
+                <div class="blog-img">
+                    <img src="/">
+                </div>
+                <header class="blog-title">
+                    <a href="#" target="_blank">响应国家政策，本站评论需实名认证后使用</a>
+                </header>
+                <div class="blog-dec">
+                    <p>
+                        根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
+                        不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神、维护国家安全和公共利益、
+                        弘扬社会主义核心价值观，即日起在树洞博客评论需在本页面实名认证后才能进行。 认证流程 打开https://r […]
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- 底部  -->
-<hr style="margin:0;">
-<?php $_smarty_tpl->_subTemplateRender("file:public/footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+    <!-- 底部  -->
+    <hr style="margin:0;">
+    <?php $_smarty_tpl->_subTemplateRender("file:public/footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
+
+</div>
 
 
 </body>
