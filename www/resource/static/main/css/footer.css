@@ -45,6 +45,20 @@
     overflow: hidden;
     margin-bottom: 38px;
 }
+.helps-box ul .tags {
+    width: auto;
+    margin-right: 8px;
+}
+.helps-box ul .tags .tars-info {
+    background-color: #3c4245;
+    padding: 3px .8em;
+    line-height: 1.9;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 3px;
+}
 .footer-content-item ul {
     padding: 0;
     margin: 0;
