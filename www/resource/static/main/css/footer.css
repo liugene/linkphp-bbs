@@ -27,8 +27,8 @@
 .footer-content-item .footer-content-item-title {
     margin: 0 0 1em;
     font-size: 18px;
-    font-weight: 400;
-    color: #DDD;
+    font-weight: 500;
+    color: #eee;
 }
 .last-box {
     text-align: right;
@@ -39,6 +39,11 @@
 .footer-content-item::before {
     display: table;
     content: "";
+}
+.helps-box {
+    height: 50%;
+    overflow: hidden;
+    margin-bottom: 38px;
 }
 .footer-content-item ul {
     padding: 0;

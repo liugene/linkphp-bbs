@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-20 07:30:49
+/* Smarty version 3.1.31, created on 2017-09-20 09:18:02
   from "C:\Object\linkphp-bbs\assets\views\main\public\footer.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c1fd09a2cb08_93107121',
+  'unifunc' => 'content_59c2162a32fa01_83967835',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ee796171988e98691cbb393a1aee320a0fb64cb6' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\public\\footer.html',
-      1 => 1505885447,
+      1 => 1505891879,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59c1fd09a2cb08_93107121 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c2162a32fa01_83967835 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="footer">
  <div class="footer-content">
@@ -74,17 +74,28 @@ function content_59c1fd09a2cb08_93107121 (Smarty_Internal_Template $_smarty_tpl)
    </ul>
   </aside>
   <aside class="footer-content-item helps">
-      <h3 class="footer-content-item-title last-box">WIKI教程中心</h3>
-   <ul>
-       <li><a href="#">框架教程</a></li>
-       <li><a href="#">类库教程</a></li>
-       <li><a href="#">Api接口</a></li>
-       <li><a href="#">快速入门</a></li>
-   </ul>
+      <div class="helps-box">
+          <h3 class="footer-content-item-title last-box">WIKI教程中心</h3>
+          <ul>
+              <li><a href="#">框架教程</a></li>
+              <li><a href="#">类库教程</a></li>
+              <li><a href="#">Api接口</a></li>
+              <li><a href="#">快速入门</a></li>
+          </ul>
+      </div>
+      <div class="helps-box">
+          <h3 class="footer-content-item-title last-box">热门标签</h3>
+          <ul>
+              <li><a href="#">框架教程</a></li>
+              <li><a href="#">类库教程</a></li>
+              <li><a href="#">Api接口</a></li>
+              <li><a href="#">快速入门</a></li>
+          </ul>
+      </div>
   </aside>
  </div>
  <div class="footer-content-pro">
-   LinkPHP类库作用说明:
+   LinkPHP说明: php mvc-api 开源框架
  </div> 
 </div>
 <?php }
