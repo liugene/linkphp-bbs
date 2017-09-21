@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-21 12:39:18
+/* Smarty version 3.1.31, created on 2017-09-21 12:43:25
   from "C:\Object\linkphp-bbs\assets\views\main\public\header.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c396d68dcc02_84550453',
+  'unifunc' => 'content_59c397cd785005_01165487',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e6b800e658afeab2b46a70a816b9697fec22dcb4' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\public\\header.html',
-      1 => 1505990356,
+      1 => 1505990592,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59c396d68dcc02_84550453 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c397cd785005_01165487 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="nav">
     <div class="nav-show">
@@ -29,7 +29,7 @@ function content_59c396d68dcc02_84550453 (Smarty_Internal_Template $_smarty_tpl)
         </div>
         <div class="nav-show-right">
             <a class="avatar" href="/index.php/main/login/main">
-                <img src="//q.qlogo.cn/qqapp/101235792/A645D3B0234D71AE1EB9B2366399817D/100">
+                <img src="/resource/static/main/img/photo.png">
                 <cite>登入/注册</cite>
             </a>
         </div>

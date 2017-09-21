@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-20 09:12:58
+/* Smarty version 3.1.31, created on 2017-09-21 12:45:19
   from "C:\Object\linkphp-bbs\assets\views\main\home\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c214facd0783_39396907',
+  'unifunc' => 'content_59c3983f308908_67653163',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd951e05dd1918a17ce1619e16ae174e3f5724530' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\home\\main.html',
-      1 => 1505891575,
+      1 => 1505990716,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59c214facd0783_39396907 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c3983f308908_67653163 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -79,7 +79,7 @@ function content_59c214facd0783_39396907 (Smarty_Internal_Template $_smarty_tpl)
         <div class="center-box">
             <div class="center-show">
                 <div class="right-repeat-img">
-                    <img src="//q.qlogo.cn/qqapp/101235792/A645D3B0234D71AE1EB9B2366399817D/100">
+                    <img src="/resource/static/main/img/photo.png">
                 </div>
                 <div class="center-talk-right">
                     <div class="right-repeat-title">
@@ -97,7 +97,7 @@ function content_59c214facd0783_39396907 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             <div class="center-show">
                 <div class="left-repeat-img">
-                    <img src="//q.qlogo.cn/qqapp/101235792/A645D3B0234D71AE1EB9B2366399817D/100">
+                    <img src="/resource/static/main/img/photo.png">
                 </div>
                 <div class="center-talk-left">
                     <div class="left-repeat-title">
@@ -114,7 +114,7 @@ function content_59c214facd0783_39396907 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             <div class="center-show">
                 <div class="right-repeat-img">
-                    <img src="//q.qlogo.cn/qqapp/101235792/A645D3B0234D71AE1EB9B2366399817D/100">
+                    <img src="/resource/static/main/img/photo.png">
                 </div>
                 <div class="center-talk-right">
                     <div class="right-repeat-title">
@@ -132,7 +132,7 @@ function content_59c214facd0783_39396907 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             <div class="center-show">
                 <div class="left-repeat-img">
-                    <img src="//q.qlogo.cn/qqapp/101235792/A645D3B0234D71AE1EB9B2366399817D/100">
+                    <img src="/resource/static/main/img/photo.png">
                 </div>
                 <div class="center-talk-left">
                     <div class="left-repeat-title">
@@ -149,7 +149,7 @@ function content_59c214facd0783_39396907 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             <div class="center-show">
                 <div class="right-repeat-img">
-                    <img src="//q.qlogo.cn/qqapp/101235792/A645D3B0234D71AE1EB9B2366399817D/100">
+                    <img src="/resource/static/main/img/photo.png">
                 </div>
                 <div class="center-talk-right">
                     <div class="right-repeat-title">
@@ -167,7 +167,7 @@ function content_59c214facd0783_39396907 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             <div class="center-show">
                 <div class="left-repeat-img">
-                    <img src="//q.qlogo.cn/qqapp/101235792/A645D3B0234D71AE1EB9B2366399817D/100">
+                    <img src="/resource/static/main/img/photo.png">
                 </div>
                 <div class="center-talk-left">
                     <div class="left-repeat-title">
