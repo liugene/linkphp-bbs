@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-20 07:59:57
+/* Smarty version 3.1.31, created on 2017-09-21 03:44:54
   from "C:\Object\linkphp-bbs\assets\views\main\forum\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c203dd892885_20963651',
+  'unifunc' => 'content_59c319967d3202_68068889',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6abe72c1f3ba0d2bfc47705406e0f857b5aad89e' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\forum\\main.html',
-      1 => 1505887127,
+      1 => 1505958291,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59c203dd892885_20963651 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c319967d3202_68068889 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -39,6 +39,9 @@ function content_59c203dd892885_20963651 (Smarty_Internal_Template $_smarty_tpl)
     <?php echo '<script'; ?>
  src="/resource/static/main/js/jquery.min.js"><?php echo '</script'; ?>
 >
+    <?php echo '<script'; ?>
+ src="/resource/static/main/js/forum.js"><?php echo '</script'; ?>
+>
 
     <title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
 -LinkPHP开源框架</title>
@@ -52,6 +55,43 @@ function content_59c203dd892885_20963651 (Smarty_Internal_Template $_smarty_tpl)
 ?>
 
     <!-- 社区中间  -->
+
+    <div class="cats">
+        <div class="cats-box">
+            <div class="cats-items">
+                <a href="javascript:;">Linux服务器</a>
+            </div>
+            <div class="cats-items">
+                <a href="javascript:;">windows-server</a>
+            </div>
+            <div class="cats-items">
+                <a href="javascript:;">微信</a>
+            </div>
+            <div class="cats-items">
+                <a href="javascript:;">MVC</a>
+            </div>
+            <div class="cats-items">
+                <a href="javascript:;">github</a>
+            </div>
+            <div class="cats-items">
+                <a href="javascript:;">apache</a>
+            </div>
+            <div class="cats-items">
+                <a href="javascript:;">nginx</a>
+            </div>
+            <div class="cats-items">
+                <a href="javascript:;">ajax</a>
+            </div>
+        </div>
+    </div>
+    <div class="cats-more" style="display: none"></div>
+    <div class="cats-tool">
+        <div class="cats-tool-icon">
+            <a href="javascript:;" class="tool">
+                <img src="/resource/static/main/img/down.png" >
+            </a>
+        </div>
+    </div>
 
     <div class="content">
         <div class="content-box">

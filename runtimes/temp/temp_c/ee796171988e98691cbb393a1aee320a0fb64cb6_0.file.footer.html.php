@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-20 11:03:02
+/* Smarty version 3.1.31, created on 2017-09-21 03:02:36
   from "C:\Object\linkphp-bbs\assets\views\main\public\footer.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c22ec6bd6780_46852989',
+  'unifunc' => 'content_59c30fac084080_28266480',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ee796171988e98691cbb393a1aee320a0fb64cb6' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\public\\footer.html',
-      1 => 1505898111,
+      1 => 1505955696,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59c22ec6bd6780_46852989 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c30fac084080_28266480 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="footer">
  <div class="footer-content">
@@ -87,10 +87,34 @@ function content_59c22ec6bd6780_46852989 (Smarty_Internal_Template $_smarty_tpl)
           <h3 class="footer-content-item-title last-box">热门标签</h3>
           <ul>
               <li class="tags">
-                  <a href="#" class="tars-info">框架教程</a>
+                  <a href="#" class="tars-info">composer入门</a>
               </li>
               <li class="tags">
                   <a href="#" class="tars-info">类库教程</a>
+              </li>
+              <li class="tags">
+                  <a href="#" class="tars-info">微信接口开发</a>
+              </li>
+              <li class="tags">
+                  <a href="#" class="tars-info">快速入门</a>
+              </li>
+              <li class="tags">
+                  <a href="#" class="tars-info">开源框架</a>
+              </li>
+              <li class="tags">
+                  <a href="#" class="tars-info">linkphp框架</a>
+              </li>
+              <li class="tags">
+                  <a href="#" class="tars-info">mvc</a>
+              </li>
+              <li class="tags">
+                  <a href="#" class="tars-info">快速入门</a>
+              </li>
+              <li class="tags">
+                  <a href="#" class="tars-info">框架教程</a>
+              </li>
+              <li class="tags">
+                  <a href="#" class="tars-info">微信接口开发</a>
               </li>
               <li class="tags">
                   <a href="#" class="tars-info">Api接口</a>

@@ -231,19 +231,46 @@
 .cats {
     background-color: #393D49;
     font-size: 16px;
-    height: 26px;
+    height: 38px;
 }
-.cats .cats-more {
-    display: none;
+.cats .cats-box {
+    width: 85%;
+    height: auto;
+    margin: 18px auto;
+    overflow: hidden;
+}
+.cats .cats-box .cats-items {
+    width: auto;
+    margin-right: 18px;
+    float: left;
+}
+.cats .cats-box .cats-items a {
+    color: rgba(255,255,255,.7);
+    padding: 3px .8em;
+    line-height: 1.9;
+    display: block;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+}
+.cats .cats-box .cats-items a:hover {
+    color: #fff;
+}
+.cats-more {
     background-color: #393D49;
     font-size: 16px;
-    height: 26px;
+    height: 108px;
 }
 .cats-tool {
-    width: 48px;
+    width: 100%;
     height: 32px;
     margin: 0 auto;
     border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255,255,255,0.3) inset;
+    -moz-box-shadow: 0 0 15px rgba(255,255,255,0.3) inset;
+    -webkit-box-shadow: 0 0 15px rgba(255,255,255,0.3) inset;
+    box-sizing: border-box;
 }
 .cats-tool .cats-tool-icon {
     width: 32px;

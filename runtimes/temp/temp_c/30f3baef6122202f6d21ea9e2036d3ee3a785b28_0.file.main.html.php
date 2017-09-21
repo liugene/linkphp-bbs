@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-20 08:29:52
+/* Smarty version 3.1.31, created on 2017-09-21 03:03:10
   from "C:\Object\linkphp-bbs\assets\views\main\wiki\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c20ae0e91b04_18995231',
+  'unifunc' => 'content_59c30fce85bd81_24665796',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '30f3baef6122202f6d21ea9e2036d3ee3a785b28' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\wiki\\main.html',
-      1 => 1505888990,
+      1 => 1505955696,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/header.html' => 1,
   ),
 ),false)) {
-function content_59c20ae0e91b04_18995231 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c30fce85bd81_24665796 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -45,16 +45,15 @@ function content_59c20ae0e91b04_18995231 (Smarty_Internal_Template $_smarty_tpl)
 
 <body>
 
-<div id="body">
-    <div class="wiki-center">
-        <div class="header">
-            <?php $_smarty_tpl->_subTemplateRender("file:public/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+<div class="wiki-center">
+    <div class="header">
+        <?php $_smarty_tpl->_subTemplateRender("file:public/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
-        </div>
-        <div class="body">
-            <div class="left">
-                <div class="wiki-left-box">
+    </div>
+    <div class="body">
+        <div class="left">
+            <div class="wiki-left-box">
                 <span class="wiki-show">
                     <a href="javascript:;">
                         <i class="layui-icon icon icon-active">&#xe61a;</i>
@@ -62,14 +61,14 @@ function content_59c20ae0e91b04_18995231 (Smarty_Internal_Template $_smarty_tpl)
                         wiki中心
                     </a>
                 </span>
-                    <ul class="wiki-active">
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                    </ul>
+                <ul class="wiki-active">
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                </ul>
                 <span class="wiki-show">
                     <a href="javascript:;">
                         <i class="layui-icon icon icon-none">&#xe61a;</i>
@@ -77,14 +76,14 @@ function content_59c20ae0e91b04_18995231 (Smarty_Internal_Template $_smarty_tpl)
                         wiki中心
                     </a>
                 </span>
-                    <ul class="wiki-none">
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                    </ul>
+                <ul class="wiki-none">
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                </ul>
                 <span class="wiki-show">
                     <a href="javascript:;">
                         <i class="layui-icon icon icon-none">&#xe61a;</i>
@@ -92,14 +91,14 @@ function content_59c20ae0e91b04_18995231 (Smarty_Internal_Template $_smarty_tpl)
                         wiki中心
                     </a>
                 </span>
-                    <ul class="wiki-none">
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                    </ul>
+                <ul class="wiki-none">
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                </ul>
                 <span class="wiki-show">
                     <a href="javascript:;">
                         <i class="layui-icon icon icon-none">&#xe61a;</i>
@@ -107,21 +106,20 @@ function content_59c20ae0e91b04_18995231 (Smarty_Internal_Template $_smarty_tpl)
                         wiki中心
                     </a>
                 </span>
-                    <ul class="wiki-none">
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                        <li><a href="javascript:;">wiki手册</a></li>
-                    </ul>
-                </div>
+                <ul class="wiki-none">
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                    <li><a href="javascript:;">wiki手册</a></li>
+                </ul>
             </div>
-            <div class="right">
-                <iframe src="/index.php/main/wiki/view" id="demoAdmin" style="width: 100%; height: 99%;" frameborder="0"></iframe>
-                <div class="wiki-footer">
-                    © linkphp.cn - php api框架
-                </div>
+        </div>
+        <div class="right">
+            <iframe src="/index.php/main/wiki/view" id="demoAdmin" style="width: 100%; height: 99%;" frameborder="0"></iframe>
+            <div class="wiki-footer">
+                © linkphp.cn - php api框架
             </div>
         </div>
     </div>
