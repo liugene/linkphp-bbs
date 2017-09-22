@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-22 11:52:35
+/* Smarty version 3.1.31, created on 2017-09-22 12:27:16
   from "C:\Object\linkphp-bbs\assets\views\main\login\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c4dd63473104_56346283',
+  'unifunc' => 'content_59c4e584b3d586_49326681',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '245aa043ca68ab18a8503feda3ff5618a2a66cdc' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\login\\main.html',
-      1 => 1506073944,
+      1 => 1506076034,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59c4dd63473104_56346283 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c4e584b3d586_49326681 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -88,5 +88,24 @@ function content_59c4dd63473104_56346283 (Smarty_Internal_Template $_smarty_tpl)
 ?>
 
 </body>
+<?php echo '<script'; ?>
+>
+//    $('#account').on('focus',function(){
+//        var li = $(this).prev('txt')
+//        li.css('display','none');
+//    })
+//    $('#account').on('blur',function(){
+//        var li = $(this).prev('txt')
+//        li.css('display','inline');
+//    })
+//    $(document).on('#account','focus',function(){
+//        $('.txt').css('display','none');
+//    });
+//    $(document).on('#account','blur',function(){
+//        $('.txt').css('display','block');
+//
+//    })
+<?php echo '</script'; ?>
+>
 </html><?php }
 }

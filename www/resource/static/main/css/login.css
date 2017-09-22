@@ -90,6 +90,9 @@ body{
     padding-bottom: 11px;
     padding-left: 20px;
     padding-top: 16px;
+    position:relative;
+    z-index:9999;
+    background:transparent;
 }
 .txt {
     position: absolute;
