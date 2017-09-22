@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-22 11:28:34
+/* Smarty version 3.1.31, created on 2017-09-22 11:52:35
   from "C:\Object\linkphp-bbs\assets\views\main\login\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c4d7c2e71a80_95681067',
+  'unifunc' => 'content_59c4dd63473104_56346283',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '245aa043ca68ab18a8503feda3ff5618a2a66cdc' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\login\\main.html',
-      1 => 1506072513,
+      1 => 1506073944,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59c4d7c2e71a80_95681067 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c4dd63473104_56346283 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -46,6 +46,9 @@ function content_59c4d7c2e71a80_95681067 (Smarty_Internal_Template $_smarty_tpl)
 >
     <?php echo '<script'; ?>
  src="/resource/static/main/logic/login.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="/resource/static/main/js/login.js"><?php echo '</script'; ?>
 >
 
 

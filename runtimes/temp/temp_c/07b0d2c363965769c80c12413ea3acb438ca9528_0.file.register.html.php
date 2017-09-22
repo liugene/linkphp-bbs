@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-22 09:43:56
+/* Smarty version 3.1.31, created on 2017-09-22 11:58:23
   from "C:\Object\linkphp-bbs\assets\views\main\login\register.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c4bf3c6c4d08_48416891',
+  'unifunc' => 'content_59c4debf371407_44375466',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '07b0d2c363965769c80c12413ea3acb438ca9528' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\login\\register.html',
-      1 => 1506066157,
+      1 => 1506074228,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59c4bf3c6c4d08_48416891 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c4debf371407_44375466 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -33,19 +33,22 @@ function content_59c4bf3c6c4d08_48416891 (Smarty_Internal_Template $_smarty_tpl)
     <link href="/resource/static/main/css/login.css" type="text/css" rel="stylesheet" />
     <link href="/resource/static/main/css/footer.css" type="text/css" rel="stylesheet" />
     <?php echo '<script'; ?>
- src="/resource/static/layui/layui.js"><?php echo '</script'; ?>
+ src="/resource/static/main/js/jquery.min.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
  src="/resource/static/layer/layer.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="/resource/static/main/js/jquery.min.js"><?php echo '</script'; ?>
+ src="/resource/static/layui/layui.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
  src="/resource/static/main/util/util.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
  src="/resource/static/main/logic/login.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="/resource/static/main/js/login.js"><?php echo '</script'; ?>
 >
 
     <title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
