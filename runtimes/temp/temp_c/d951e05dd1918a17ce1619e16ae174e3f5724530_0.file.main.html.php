@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-21 12:45:19
+/* Smarty version 3.1.31, created on 2017-09-22 11:21:43
   from "C:\Object\linkphp-bbs\assets\views\main\home\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c3983f308908_67653163',
+  'unifunc' => 'content_59c4d627c4ae05_05187950',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd951e05dd1918a17ce1619e16ae174e3f5724530' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\home\\main.html',
-      1 => 1505990716,
+      1 => 1506071172,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59c3983f308908_67653163 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c4d627c4ae05_05187950 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -33,10 +33,13 @@ function content_59c3983f308908_67653163 (Smarty_Internal_Template $_smarty_tpl)
     <link href="/resource/static/main/css/index.css" type="text/css" rel="stylesheet" />
     <link href="/resource/static/main/css/footer.css" type="text/css" rel="stylesheet" />
     <?php echo '<script'; ?>
+ src="/resource/static/main/js/jquery.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
  src="/resource/static/layui/layui.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="/resource/static/main/js/jquery.min.js"><?php echo '</script'; ?>
+ src="/resource/static/layer/layer.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
  src="/resource/static/main/js/quietflow.min.js"><?php echo '</script'; ?>

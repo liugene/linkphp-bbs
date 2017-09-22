@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-22 10:35:24
-  from "C:\Object\linkphp-bbs\assets\views\main\public\u_header.html" */
+/* Smarty version 3.1.31, created on 2017-09-22 09:41:43
+  from "C:\Object\linkphp-bbs\assets\views\main\public\r_header.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c4cb4ccc7e09_70365025',
+  'unifunc' => 'content_59c4beb765f406_55605925',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '913dbf81f8345f5bfcad4720b9f83b67b85d7358' => 
+    'd6ac349c24d75e145065f7a4d7b4683d38a5e978' => 
     array (
-      0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\public\\u_header.html',
-      1 => 1506066054,
+      0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\public\\r_header.html',
+      1 => 1506066082,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59c4cb4ccc7e09_70365025 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c4beb765f406_55605925 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="u_header">
     <div class="u_header-box">
@@ -30,7 +30,7 @@ function content_59c4cb4ccc7e09_70365025 (Smarty_Internal_Template $_smarty_tpl)
             </a>
         </div>
         <div class="u_logo font">
-            <span>欢迎登入</span>
+            <span>欢迎注册</span>
         </div>
     </div>
 </div><?php }

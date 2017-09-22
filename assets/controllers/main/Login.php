@@ -22,4 +22,11 @@ class login extends Controller
         $this->assign('title',$title);
         $this->display();
     }
+
+    public function register()
+    {
+        $title = '注册';
+        $this->assign('title',$title);
+        $this->display();
+    }
 }
