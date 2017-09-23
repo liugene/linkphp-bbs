@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-23 09:59:48
+/* Smarty version 3.1.31, created on 2017-09-23 14:35:05
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\forum\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c630946e31a2_17223138',
+  'unifunc' => 'content_59c67119e4c8c6_16548231',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6a45a9658fb2f63044d51f8daf984cbc303c1d84' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\forum\\main.html',
-      1 => 1506160702,
+      1 => 1506177287,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59c630946e31a2_17223138 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c67119e4c8c6_16548231 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -128,115 +128,19 @@ function content_59c630946e31a2_17223138 (Smarty_Internal_Template $_smarty_tpl)
                     </div>
                 </div>
 
-                <div class="left-content">
-                    <div class="post-title">
-                        <a href="/index.php/main/forum/items" target="_blank">这是一个测试的内容</a>
-                    </div>
-                    <div class="post-info">
-                        <strong class="post-user">linkphp</strong>
-                        <em class="post-time">2017-09-17</em>
-                        <span class="post-tags"><a href="#" class="tags-info">mvc</a></span>
-                        <span class="post-num"><i class="layui-icon">&#xe611;</i> 0</span>
-                    </div>
-                </div>
-                <div class="left-content">
-                    <div class="post-title">
-                        <a href="#">这是一个测试的内容</a>
-                    </div>
-                    <div class="post-info">
-                        <strong class="post-user">linkphp</strong>
-                        <em class="post-time">2017-09-17</em>
-                        <span class="post-tags"><a href="#" class="tags-info">mvc</a></span>
-                        <span class="post-num"><i class="layui-icon">&#xe611;</i> 0</span>
-                    </div>
-                </div>
-                <div class="left-content">
-                    <div class="post-title">
-                        <a href="#">这是一个测试的内容</a>
-                    </div>
-                    <div class="post-info">
-                        <strong class="post-user">linkphp</strong>
-                        <em class="post-time">2017-09-17</em>
-                        <span class="post-tags"><a href="#" class="tags-info">mvc</a></span>
-                        <span class="post-num"><i class="layui-icon">&#xe611;</i> 0</span>
-                    </div>
-                </div>
-                <div class="left-content">
-                    <div class="post-title">
-                        <a href="#">这是一个测试的内容</a>
-                    </div>
-                    <div class="post-info">
-                        <strong class="post-user">linkphp</strong>
-                        <em class="post-time">2017-09-17</em>
-                        <span class="post-tags"><a href="#" class="tags-info">mvc</a></span>
-                        <span class="post-num"><i class="layui-icon">&#xe611;</i> 0</span>
-                    </div>
-                </div>
-                <div class="left-content">
-                    <div class="post-title">
-                        <a href="#">这是一个测试的内容</a>
-                    </div>
-                    <div class="post-info">
-                        <strong class="post-user">linkphp</strong>
-                        <em class="post-time">2017-09-17</em>
-                        <span class="post-tags"><a href="#" class="tags-info">mvc</a></span>
-                        <span class="post-num"><i class="layui-icon">&#xe611;</i> 0</span>
-                    </div>
-                </div>
-                <div class="left-content">
-                    <div class="post-title">
-                        <a href="#">这是一个测试的内容</a>
-                    </div>
-                    <div class="post-info">
-                        <strong class="post-user">linkphp</strong>
-                        <em class="post-time">2017-09-17</em>
-                        <span class="post-tags"><a href="#" class="tags-info">mvc</a></span>
-                        <span class="post-num"><i class="layui-icon">&#xe611;</i> 0</span>
-                    </div>
-                </div>
-                <div class="left-content">
-                    <div class="post-title">
-                        <a href="#">这是一个测试的内容</a>
-                    </div>
-                    <div class="post-info">
-                        <strong class="post-user">linkphp</strong>
-                        <em class="post-time">2017-09-17</em>
-                        <span class="post-tags"><a href="#" class="tags-info">mvc</a></span>
-                        <span class="post-num"><i class="layui-icon">&#xe611;</i> 0</span>
-                    </div>
-                </div>
-                <div class="left-content">
-                    <div class="post-title">
-                        <a href="#">这是一个测试的内容</a>
-                    </div>
-                    <div class="post-info">
-                        <strong class="post-user">linkphp</strong>
-                        <em class="post-time">2017-09-17</em>
-                        <span class="post-tags"><a href="#" class="tags-info">mvc</a></span>
-                        <span class="post-num"><i class="layui-icon">&#xe611;</i> 0</span>
-                    </div>
-                </div>
-                <div class="left-content">
-                    <div class="post-title">
-                        <a href="#">这是一个测试的内容</a>
-                    </div>
-                    <div class="post-info">
-                        <strong class="post-user">linkphp</strong>
-                        <em class="post-time">2017-09-17</em>
-                        <span class="post-tags"><a href="#" class="tags-info">mvc</a></span>
-                        <span class="post-num"><i class="layui-icon">&#xe611;</i> 0</span>
-                    </div>
-                </div>
-                <div class="left-content">
-                    <div class="post-title">
-                        <a href="#">这是一个测试的内容</a>
-                    </div>
-                    <div class="post-info">
-                        <strong class="post-user">linkphp</strong>
-                        <em class="post-time">2017-09-17</em>
-                        <span class="post-tags"><a href="#" class="tags-info">mvc</a></span>
-                        <span class="post-num"><i class="layui-icon">&#xe611;</i> 0</span>
-                    </div>
+                <div class="left-content-box">
+                    <!-- 循环遍历 -->
+                    <!--<div class="left-content">-->
+                        <!--<div class="post-title">-->
+                            <!--<a href="/index.php/main/forum/items" target="_blank">这是一个测试的内容</a>-->
+                        <!--</div>-->
+                        <!--<div class="post-info">-->
+                            <!--<strong class="post-user">linkphp</strong>-->
+                            <!--<em class="post-time">2017-09-17</em>-->
+                            <!--<span class="post-tags"><a href="#" class="tags-info">mvc</a></span>-->
+                            <!--<span class="post-num"><i class="layui-icon">&#xe611;</i> 0</span>-->
+                        <!--</div>-->
+                    <!--</div>-->
                 </div>
 
                 <!-- 底部分页 -->
