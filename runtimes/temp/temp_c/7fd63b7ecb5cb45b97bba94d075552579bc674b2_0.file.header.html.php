@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-20 12:36:49
+/* Smarty version 3.1.31, created on 2017-09-22 14:14:55
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\public\header.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c260e11502c6_72152742',
+  'unifunc' => 'content_59c51adf3b16e0_28350759',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7fd63b7ecb5cb45b97bba94d075552579bc674b2' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\public\\header.html',
-      1 => 1505910859,
+      1 => 1506089410,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59c260e11502c6_72152742 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c51adf3b16e0_28350759 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="nav">
     <div class="nav-show">
@@ -28,9 +28,9 @@ function content_59c260e11502c6_72152742 (Smarty_Internal_Template $_smarty_tpl)
             <img src="/resource/static/main/img/linkphp.png" />
         </div>
         <div class="nav-show-right">
-            <a class="avatar" href="/user/">
-                <img src="//q.qlogo.cn/qqapp/101235792/A645D3B0234D71AE1EB9B2366399817D/100">
-                <cite>LauGene</cite>
+            <a class="avatar" href="/index.php/main/login/main">
+                <img src="/resource/static/main/img/photo.png">
+                <cite>登入/注册</cite>
             </a>
         </div>
         <div class="nav-show-middle">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-20 14:49:14
+/* Smarty version 3.1.31, created on 2017-09-22 14:15:09
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\forum\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c27fea661711_42455978',
+  'unifunc' => 'content_59c51aedbc32d4_83934622',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6a45a9658fb2f63044d51f8daf984cbc303c1d84' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\forum\\main.html',
-      1 => 1505918951,
+      1 => 1506089410,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59c27fea661711_42455978 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c51aedbc32d4_83934622 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -39,6 +39,9 @@ function content_59c27fea661711_42455978 (Smarty_Internal_Template $_smarty_tpl)
     <?php echo '<script'; ?>
  src="/resource/static/main/js/jquery.min.js"><?php echo '</script'; ?>
 >
+    <?php echo '<script'; ?>
+ src="/resource/static/main/js/forum.js"><?php echo '</script'; ?>
+>
 
     <title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
 -LinkPHP开源框架</title>
@@ -53,8 +56,35 @@ function content_59c27fea661711_42455978 (Smarty_Internal_Template $_smarty_tpl)
 
     <!-- 社区中间  -->
 
-    <div class="cats"></div>
-    <div class="cats-more"></div>
+    <div class="cats">
+        <div class="cats-box">
+            <div class="cats-items">
+                <a href="javascript:;">Linux服务器</a>
+            </div>
+            <div class="cats-items">
+                <a href="javascript:;">windows-server</a>
+            </div>
+            <div class="cats-items">
+                <a href="javascript:;">微信</a>
+            </div>
+            <div class="cats-items">
+                <a href="javascript:;">MVC</a>
+            </div>
+            <div class="cats-items">
+                <a href="javascript:;">github</a>
+            </div>
+            <div class="cats-items">
+                <a href="javascript:;">apache</a>
+            </div>
+            <div class="cats-items">
+                <a href="javascript:;">nginx</a>
+            </div>
+            <div class="cats-items">
+                <a href="javascript:;">ajax</a>
+            </div>
+        </div>
+    </div>
+    <div class="cats-more" style="display: none"></div>
     <div class="cats-tool">
         <div class="cats-tool-icon">
             <a href="javascript:;" class="tool">
@@ -243,13 +273,6 @@ function content_59c27fea661711_42455978 (Smarty_Internal_Template $_smarty_tpl)
 
 </div>
 
-<?php echo '<script'; ?>
->
-    $(document).on('click','.tool',function(){
-        $('.cats-more').toggle();
-    })
-<?php echo '</script'; ?>
->
 
 </body>
 </html>
