@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-22 14:15:09
+/* Smarty version 3.1.31, created on 2017-09-23 09:59:48
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\forum\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c51aedbc32d4_83934622',
+  'unifunc' => 'content_59c630946e31a2_17223138',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6a45a9658fb2f63044d51f8daf984cbc303c1d84' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\forum\\main.html',
-      1 => 1506089410,
+      1 => 1506160702,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59c51aedbc32d4_83934622 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c630946e31a2_17223138 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -34,13 +34,22 @@ function content_59c51aedbc32d4_83934622 (Smarty_Internal_Template $_smarty_tpl)
     <link href="/resource/static/main/css/forum.css" type="text/css" rel="stylesheet" />
     <link href="/resource/static/main/css/footer.css" type="text/css" rel="stylesheet" />
     <?php echo '<script'; ?>
- src="/resource/static/layui/layui.js"><?php echo '</script'; ?>
->
-    <?php echo '<script'; ?>
  src="/resource/static/main/js/jquery.min.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
+ src="/resource/static/layer/layer.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="/resource/static/layui/layui.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
  src="/resource/static/main/js/forum.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="/resource/static/main/util/util.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="/resource/static/main/logic/forum.js"><?php echo '</script'; ?>
 >
 
     <title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
