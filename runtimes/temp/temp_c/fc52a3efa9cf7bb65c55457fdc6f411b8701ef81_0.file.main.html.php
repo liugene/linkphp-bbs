@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-23 03:08:59
+/* Smarty version 3.1.31, created on 2017-09-23 07:45:10
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\ask\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c5d04b9dd7b6_93813685',
+  'unifunc' => 'content_59c61106331995_81924200',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fc52a3efa9cf7bb65c55457fdc6f411b8701ef81' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\ask\\main.html',
-      1 => 1506135688,
+      1 => 1506152704,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/tool.html' => 1,
   ),
 ),false)) {
-function content_59c5d04b9dd7b6_93813685 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c61106331995_81924200 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -67,12 +67,12 @@ function content_59c5d04b9dd7b6_93813685 (Smarty_Internal_Template $_smarty_tpl)
             <form class="layui-form" action="">
                 <div class="layui-form-item">
                     <div class="layui-input-block">
-                        <input type="text" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input title">
+                        <input id="title" type="text" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input title">
                     </div>
                 </div>
                 <div class="layui-form-item">
                     <div class="layui-input-block">
-                        <input type="text" name="type" placeholder="标签,如:linkphp" autocomplete="off" class="layui-input tags">
+                        <input id="type" type="text" name="type" placeholder="标签,如:linkphp" autocomplete="off" class="layui-input tags">
                     </div>
                 </div>
                 <div class="layui-form-item layui-form-text">
