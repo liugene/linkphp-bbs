@@ -12,11 +12,10 @@
 $(function(){
     //发帖
     $('#saveFun').click(function(){
-        alert(123);
-        var param = {account:$('#account').val(),password:$('#password').val()};
+        var param = {title:$('#title').val(),type:$('#type').val()};
         var url = 'index.php/main/forum/push';
         request(url,param,function(err, data){
-            if (err) throw err; 
+            if (err) throw err;
             layer.msg(data.msg, {icon: data.code});
         });
     })
