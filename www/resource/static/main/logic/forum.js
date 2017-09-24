@@ -30,4 +30,30 @@ $(function(){
         });
         $('.left-content-box').html(html);
     });
+
+    //子标签数据
+    var childUrl = 'index.php/main/forum/getChildType';
+    getData(childUrl,'',function(err, data){
+        if (err) throw err;
+        var html = "";
+        $.each(data.data[0],function(i,item){
+            html += '<div class="cats-items">'+
+                '<a href="javascript:;">'+item.classname+'</a>'+
+                '</div>';
+        });
+        $('.cats-box').html(html);
+    });
+
+    //公告数据
+    var noticUrl = 'index.php/main/notices/getNotices';
+    getData(noticUrl,'',function(err, data){
+        if (err) throw err;
+        var html = "";
+        $.each(data.data,function(i,item){
+            html += '<div class="post-notic">'+
+                '<a href="#">'+item.title+'</a>'+
+                '</div>';
+        });
+        $('.right-content').html(html);
+    });
 });

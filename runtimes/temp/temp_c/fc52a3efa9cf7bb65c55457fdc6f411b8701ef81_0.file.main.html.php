@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-24 11:44:30
+/* Smarty version 3.1.31, created on 2017-09-24 13:12:04
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\ask\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c79a9ecbd504_05160481',
+  'unifunc' => 'content_59c7af24495599_66457379',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fc52a3efa9cf7bb65c55457fdc6f411b8701ef81' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\ask\\main.html',
-      1 => 1506253465,
+      1 => 1506257399,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/tool.html' => 1,
   ),
 ),false)) {
-function content_59c79a9ecbd504_05160481 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c7af24495599_66457379 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -81,7 +81,10 @@ function content_59c79a9ecbd504_05160481 (Smarty_Internal_Template $_smarty_tpl)
                         <input id="type" type="text" name="type" placeholder="标签,如:linkphp" autocomplete="off" class="layui-input tags">
                     </div>
                 </div>
-                <div class="ask-type-down"></div>
+                <div class="ask-type-down">
+                    <div class="ask-type-p"></div>
+                    <div class="ask-type-c"></div>
+                </div>
                 <div class="layui-form-item layui-form-text ask-dec">
                     <div id="markdown">
                         <textarea id="desc" name="desc" style="display: none;"></textarea>

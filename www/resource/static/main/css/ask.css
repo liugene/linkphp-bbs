@@ -58,3 +58,14 @@ body{
      box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.18);
      -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
  }
+ .ask-type-down .ask-type-p {
+     width: 85%;
+     height: 38px;
+     background: #000;
+ }
+ .ask-type-down .ask-type-c {
+     width: 85%;
+     height: 118px;
+     background: #000;
+     margin: 5px auto;
+ }

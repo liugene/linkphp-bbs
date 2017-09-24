@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-23 14:35:05
+/* Smarty version 3.1.31, created on 2017-09-24 13:27:21
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\forum\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c67119e4c8c6_16548231',
+  'unifunc' => 'content_59c7b2b9af8039_37365424',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6a45a9658fb2f63044d51f8daf984cbc303c1d84' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\forum\\main.html',
-      1 => 1506177287,
+      1 => 1506259543,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59c67119e4c8c6_16548231 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c7b2b9af8039_37365424 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -67,30 +67,9 @@ function content_59c67119e4c8c6_16548231 (Smarty_Internal_Template $_smarty_tpl)
 
     <div class="cats">
         <div class="cats-box">
-            <div class="cats-items">
-                <a href="javascript:;">Linux服务器</a>
-            </div>
-            <div class="cats-items">
-                <a href="javascript:;">windows-server</a>
-            </div>
-            <div class="cats-items">
-                <a href="javascript:;">微信</a>
-            </div>
-            <div class="cats-items">
-                <a href="javascript:;">MVC</a>
-            </div>
-            <div class="cats-items">
-                <a href="javascript:;">github</a>
-            </div>
-            <div class="cats-items">
-                <a href="javascript:;">apache</a>
-            </div>
-            <div class="cats-items">
-                <a href="javascript:;">nginx</a>
-            </div>
-            <div class="cats-items">
-                <a href="javascript:;">ajax</a>
-            </div>
+            <!--<div class="cats-items">-->
+                <!--<a href="javascript:;">Linux服务器</a>-->
+            <!--</div>-->
         </div>
     </div>
     <div class="cats-more" style="display: none"></div>
@@ -153,27 +132,9 @@ function content_59c67119e4c8c6_16548231 (Smarty_Internal_Template $_smarty_tpl)
                     </div>
                 </div>
                 <div class="right-content">
-                    <div class="post-notic">
-                        <a href="#">这是一个测试的内容</a>
-                    </div>
-                    <div class="post-notic">
-                        <a href="#">这是一个测试的内容</a>
-                    </div>
-                    <div class="post-notic">
-                        <a href="#">这是一个测试的内容</a>
-                    </div>
-                    <div class="post-notic">
-                        <a href="#">这是一个测试的内容</a>
-                    </div>
-                    <div class="post-notic">
-                        <a href="#">这是一个测试的内容</a>
-                    </div>
-                    <div class="post-notic">
-                        <a href="#">这是一个测试的内容</a>
-                    </div>
-                    <div class="post-notic">
-                        <a href="#">这是一个测试的内容</a>
-                    </div>
+                    <!--<div class="post-notic">-->
+                        <!--<a href="#">这是一个测试的内容</a>-->
+                    <!--</div>-->
                 </div>
             </div>
         </div>
