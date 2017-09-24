@@ -10,25 +10,16 @@
 // |               air.js
 // +----------------------------------------------------------------------
 $(function(){
-    //发帖
-    $('#saveFun').click(function(){
-        var param = {title:$('#title').val(),type:$('#type').val(),desc:$('#desc').val()};
-        var url = 'index.php/main/forum/push';
-        request(url,param,function(err, data){
-            if (err) throw err;
-            layer.msg(data.msg, {icon: data.code});
-        });
+    $('#type').on('focus',function(){
+        $('.ask-type-down').css('display','block');
     });
-    //获取标签
-    var url = 'index.php/main/forum/getType';
-    getData(url,'',function(err, data){
-        if (err) throw err;
-        layer.msg('获取成功!', {icon: data.code});
-        var html = "";
-        $.each(data.data,function(i,item){
-            console.log(item);
-            html += '';
+    $('#type').on('blur',function(){
+        $("html").click(function (e) {
+            if (e.target == $(".ask-type-down")[0] || e.target == $('#type')[0]) {
+                console.log(1);
+            } else {
+                $('.ask-type-down').css('display','none');
+            }
         });
-        $('.ask-type-down').html(html);
     });
 });

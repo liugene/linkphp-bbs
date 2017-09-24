@@ -10,8 +10,10 @@
     <link href="/resource/static/main/css/ask.css" type="text/css" rel="stylesheet" />
     <link href="/resource/static/main/css/footer.css" type="text/css" rel="stylesheet" />
     <script src="/resource/static/layer/layer.js"></script>
+    <script src="/resource/static/layui/layui.js"></script>
     <script src="/resource/static/main/util/util.js"></script>
     <script src="/resource/static/main/logic/ask.js"></script>
+    <script src="/resource/static/main/js/ask.js"></script>
     <script src="/resource/static/editor.md/editormd.min.js"></script>
 
     <title><{$title}>-LinkPHP开源框架</title>
@@ -31,12 +33,13 @@
                         <input id="title" type="text" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input title">
                     </div>
                 </div>
-                <div class="layui-form-item">
+                <div class="layui-form-item ask-type">
                     <div class="layui-input-block">
                         <input id="type" type="text" name="type" placeholder="标签,如:linkphp" autocomplete="off" class="layui-input tags">
                     </div>
                 </div>
-                <div class="layui-form-item layui-form-text">
+                <div class="ask-type-down"></div>
+                <div class="layui-form-item layui-form-text ask-dec">
                     <div id="markdown">
                         <textarea id="desc" name="desc" style="display: none;"></textarea>
                     </div>

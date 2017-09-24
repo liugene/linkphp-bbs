@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-23 07:45:10
+/* Smarty version 3.1.31, created on 2017-09-24 11:44:30
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\ask\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c61106331995_81924200',
+  'unifunc' => 'content_59c79a9ecbd504_05160481',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fc52a3efa9cf7bb65c55457fdc6f411b8701ef81' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\ask\\main.html',
-      1 => 1506152704,
+      1 => 1506253465,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/tool.html' => 1,
   ),
 ),false)) {
-function content_59c61106331995_81924200 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c79a9ecbd504_05160481 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -41,10 +41,16 @@ function content_59c61106331995_81924200 (Smarty_Internal_Template $_smarty_tpl)
  src="/resource/static/layer/layer.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
+ src="/resource/static/layui/layui.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
  src="/resource/static/main/util/util.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
  src="/resource/static/main/logic/ask.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="/resource/static/main/js/ask.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
  src="/resource/static/editor.md/editormd.min.js"><?php echo '</script'; ?>
@@ -70,12 +76,13 @@ function content_59c61106331995_81924200 (Smarty_Internal_Template $_smarty_tpl)
                         <input id="title" type="text" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input title">
                     </div>
                 </div>
-                <div class="layui-form-item">
+                <div class="layui-form-item ask-type">
                     <div class="layui-input-block">
                         <input id="type" type="text" name="type" placeholder="标签,如:linkphp" autocomplete="off" class="layui-input tags">
                     </div>
                 </div>
-                <div class="layui-form-item layui-form-text">
+                <div class="ask-type-down"></div>
+                <div class="layui-form-item layui-form-text ask-dec">
                     <div id="markdown">
                         <textarea id="desc" name="desc" style="display: none;"></textarea>
                     </div>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-20 12:51:18
+/* Smarty version 3.1.31, created on 2017-09-23 14:49:33
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\forum\items.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c26446a7ff57_57042077',
+  'unifunc' => 'content_59c6747d57d225_03632597',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a3837944a8c97613e15e2262237f38ccf09ce46a' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\forum\\items.html',
-      1 => 1505910859,
+      1 => 1506178124,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59c26446a7ff57_57042077 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c6747d57d225_03632597 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -34,10 +34,19 @@ function content_59c26446a7ff57_57042077 (Smarty_Internal_Template $_smarty_tpl)
     <link href="/resource/static/main/css/forum.css" type="text/css" rel="stylesheet" />
     <link href="/resource/static/main/css/footer.css" type="text/css" rel="stylesheet" />
     <?php echo '<script'; ?>
+ src="/resource/static/main/js/jquery.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="/resource/static/layer/layer.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
  src="/resource/static/layui/layui.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="/resource/static/main/js/jquery.min.js"><?php echo '</script'; ?>
+ src="/resource/static/main/util/util.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="/resource/static/main/logic/items.js"><?php echo '</script'; ?>
 >
 
     <title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
