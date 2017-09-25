@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-22 12:27:16
+/* Smarty version 3.1.31, created on 2017-09-25 04:14:11
   from "C:\Object\linkphp-bbs\assets\views\main\login\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c4e584b3d586_49326681',
+  'unifunc' => 'content_59c86673b17d81_01178890',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '245aa043ca68ab18a8503feda3ff5618a2a66cdc' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\login\\main.html',
-      1 => 1506076034,
+      1 => 1506305649,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59c4e584b3d586_49326681 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c86673b17d81_01178890 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -79,7 +79,11 @@ function content_59c4e584b3d586_49326681 (Smarty_Internal_Template $_smarty_tpl)
                 </div>
             </div>
             <div class="body-right">
-                <div class=""></div>
+                <div class="right-box">
+                    <div class="font">
+                        <strong>还没有账号:&nbsp;请<a href="/index.php/main/login/register">&nbsp;注册</a></strong>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

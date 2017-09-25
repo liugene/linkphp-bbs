@@ -13,7 +13,10 @@ $(function(){
     //公告数据
     var url = 'index.php/main/blog/getLists';
     getData(url,'',function(err, data){
-        if (err) throw err;
+        if (err) {
+            layer.msg('获取失败!', {icon: data.code});
+            throw err;
+        }
         var html = "";
         $.each(data.data,function(i,item){
             html += '<div class="blog-content">'+

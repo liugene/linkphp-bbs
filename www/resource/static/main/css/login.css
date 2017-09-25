@@ -121,3 +121,13 @@ body{
 .loginact a:hover {
     color: #fff;
 }
+.right-box {
+    margin-left: 68px;
+}
+.right-box .font {
+    color: #888888;
+}
+.right-box .font strong a {
+    text-decoration: underline;
+    color: #e22;
+}

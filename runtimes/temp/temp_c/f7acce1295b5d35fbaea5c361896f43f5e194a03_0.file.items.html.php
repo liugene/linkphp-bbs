@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-20 08:37:02
+/* Smarty version 3.1.31, created on 2017-09-25 04:41:37
   from "C:\Object\linkphp-bbs\assets\views\main\forum\items.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c20c8ea15409_55915585',
+  'unifunc' => 'content_59c86ce1b75987_31625643',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f7acce1295b5d35fbaea5c361896f43f5e194a03' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\forum\\items.html',
-      1 => 1505887108,
+      1 => 1506301493,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59c20c8ea15409_55915585 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c86ce1b75987_31625643 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -34,10 +34,19 @@ function content_59c20c8ea15409_55915585 (Smarty_Internal_Template $_smarty_tpl)
     <link href="/resource/static/main/css/forum.css" type="text/css" rel="stylesheet" />
     <link href="/resource/static/main/css/footer.css" type="text/css" rel="stylesheet" />
     <?php echo '<script'; ?>
+ src="/resource/static/main/js/jquery.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="/resource/static/layer/layer.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
  src="/resource/static/layui/layui.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="/resource/static/main/js/jquery.min.js"><?php echo '</script'; ?>
+ src="/resource/static/main/util/util.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="/resource/static/main/logic/items.js"><?php echo '</script'; ?>
 >
 
     <title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>

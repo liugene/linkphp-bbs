@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-22 11:21:43
+/* Smarty version 3.1.31, created on 2017-09-25 07:07:21
   from "C:\Object\linkphp-bbs\assets\views\main\home\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c4d627c4ae05_05187950',
+  'unifunc' => 'content_59c88f099a4c04_79496012',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd951e05dd1918a17ce1619e16ae174e3f5724530' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\home\\main.html',
-      1 => 1506071172,
+      1 => 1506316039,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59c4d627c4ae05_05187950 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c88f099a4c04_79496012 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -36,13 +36,16 @@ function content_59c4d627c4ae05_05187950 (Smarty_Internal_Template $_smarty_tpl)
  src="/resource/static/main/js/jquery.min.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="/resource/static/layui/layui.js"><?php echo '</script'; ?>
->
-    <?php echo '<script'; ?>
  src="/resource/static/layer/layer.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
+ src="/resource/static/layui/layui.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
  src="/resource/static/main/js/quietflow.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="/resource/static/main/logic/index.js"><?php echo '</script'; ?>
 >
 
     <title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
@@ -84,105 +87,15 @@ function content_59c4d627c4ae05_05187950 (Smarty_Internal_Template $_smarty_tpl)
                 <div class="right-repeat-img">
                     <img src="/resource/static/main/img/photo.png">
                 </div>
-                <div class="center-talk-right">
-                    <div class="right-repeat-title">
-                        <a href="javascript:;">响应国家政策，本站评论需实名认证后使用</a>
-                    </div>
-                    <div class="right-repeat-dec">
-                        <p>
-                            根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
-                            不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神
-                            即日起在树洞博客评论需在本页面实名认证后才能进行。 认证流程 打开https://r […]
-                        </p>
-                    </div>
-                    <img src="/resource/static/main/img/talk.png">
-                </div>
             </div>
             <div class="center-show">
                 <div class="left-repeat-img">
                     <img src="/resource/static/main/img/photo.png">
-                </div>
-                <div class="center-talk-left">
-                    <div class="left-repeat-title">
-                        <a href="javascript:;">响应国家政策，本站评论需实名认证后使用</a>
-                    </div>
-                    <div class="left-repeat-dec">
-                        <p>
-                            根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
-                            不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神
-                        </p>
-                    </div>
-                    <img src="/resource/static/main/img/talk-repeat.png">
                 </div>
             </div>
             <div class="center-show">
                 <div class="right-repeat-img">
                     <img src="/resource/static/main/img/photo.png">
-                </div>
-                <div class="center-talk-right">
-                    <div class="right-repeat-title">
-                        <a href="javascript:;">响应国家政策，本站评论需实名认证后使用</a>
-                    </div>
-                    <div class="right-repeat-dec">
-                        <p>
-                            根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
-                            不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神
-                            即日起在树洞博客评论需在本页面实名认证后才能进行。 认证流程 打开https://r […]
-                        </p>
-                    </div>
-                    <img src="/resource/static/main/img/talk.png">
-                </div>
-            </div>
-            <div class="center-show">
-                <div class="left-repeat-img">
-                    <img src="/resource/static/main/img/photo.png">
-                </div>
-                <div class="center-talk-left">
-                    <div class="left-repeat-title">
-                        <a href="javascript:;">响应国家政策，本站评论需实名认证后使用</a>
-                    </div>
-                    <div class="left-repeat-dec">
-                        <p>
-                            根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
-                            不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神
-                        </p>
-                    </div>
-                    <img src="/resource/static/main/img/talk-repeat.png">
-                </div>
-            </div>
-            <div class="center-show">
-                <div class="right-repeat-img">
-                    <img src="/resource/static/main/img/photo.png">
-                </div>
-                <div class="center-talk-right">
-                    <div class="right-repeat-title">
-                        <a href="javascript:;">响应国家政策，本站评论需实名认证后使用</a>
-                    </div>
-                    <div class="right-repeat-dec">
-                        <p>
-                            根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
-                            不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神
-                            即日起在树洞博客评论需在本页面实名认证后才能进行。 认证流程 打开https://r […]
-                        </p>
-                    </div>
-                    <img src="/resource/static/main/img/talk.png">
-                </div>
-            </div>
-            <div class="center-show">
-                <div class="left-repeat-img">
-                    <img src="/resource/static/main/img/photo.png">
-                </div>
-                <div class="center-talk-left">
-                    <div class="left-repeat-title">
-                        <a href="javascript:;">响应国家政策，本站评论需实名认证后使用</a>
-                    </div>
-                    <div class="left-repeat-dec">
-                        <p>
-                            根据网信办《互联网跟帖评论服务管理规定》，要求网站按照“后台实名、前台自愿”原则，对注册用户进行真实身份信息认证，
-                            不得向未认证真实身份信息的用户提供跟帖评论服务。为了充分落实《规定》精神
-                        </p>
-                    </div>
-                    <img src="/resource/static/main/img/talk-repeat.png">
                 </div>
             </div>
         </div>

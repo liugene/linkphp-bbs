@@ -13,8 +13,10 @@ $(function(){
     //帖子详情页
     var itemUrl = 'index.php/main/forum/getItems';
     getData(itemUrl,'',function(err, data){
-        if (err) throw err;
-        layer.msg('获取成功!', {icon: data.code});
+        if (err) {
+            layer.msg('获取失败!', {icon: data.code});
+            throw err;
+        }
         var html = "";
         $.each(data.data,function(i,item){
             console.log(item);

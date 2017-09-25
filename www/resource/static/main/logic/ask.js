@@ -22,7 +22,10 @@ $(function(){
     //获取标签
     var url = 'index.php/main/forum/getType';
     getData(url,'',function(err, data){
-        if (err) throw err;
+        if (err) {
+            layer.msg('获取失败!', {icon: data.code});
+            throw err;
+        }
         layer.msg('获取成功!', {icon: data.code});
         var html = "";
         $.each(data.data,function(i,item){
