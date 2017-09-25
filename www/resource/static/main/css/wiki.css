@@ -76,7 +76,7 @@ body {
     margin: 38px auto;
     overflow-x: hidden;
 }
-.wiki-center .body .left .wiki-left-box span {
+.wiki-center .body .left .wiki-left-box .wiki-box span {
      display: inline-block;
     width:100%;
      border-bottom: none;
@@ -88,17 +88,17 @@ body {
      position: relative;
     font-size: 16px;
  }
-.wiki-center .body .left .wiki-left-box span a{
+.wiki-center .body .left .wiki-left-box .wiki-box span a{
     display: block;
     width:100%;
     height:35px;
     line-height: 35px;
 }
-.wiki-center .body .left .wiki-left-box span a .icon{
+.wiki-center .body .left .wiki-left-box .wiki-box span a .icon{
     padding: 8px;
     font-size: 12px;
 }
-.wiki-center .body .left .wiki-left-box span a::before {
+.wiki-center .body .left .wiki-left-box .wiki-box span a::before {
     /*content: '&#xe61a;';*/
     font-style: normal;
     font-weight: 600;
@@ -108,10 +108,10 @@ body {
     color: #8d8d8d;
     font-size: 14px;
 }
-.wiki-center .body .left .wiki-left-box span a:hover {
+.wiki-center .body .left .wiki-left-box .wiki-box span a:hover {
     background-color: #eff1f3;
 }
-.wiki-center .body .left .wiki-left-box ul li {
+.wiki-center .body .left .wiki-left-box .wiki-box ul li {
      display: block;
      padding: 2px 32px;
      border-bottom: none;
@@ -123,26 +123,26 @@ body {
      white-space: nowrap;
      position: relative;
  }
-.wiki-center .body .left .wiki-left-box ul li a {
+.wiki-center .body .left .wiki-left-box .wiki-box ul li a {
     display: block;
     width:100%;
     height:35px;
     line-height: 35px;
     padding-left: 12px;
 }
-.wiki-center .body .left .wiki-left-box ul li a:hover {
+.wiki-center .body .left .wiki-left-box .wiki-box ul li a:hover {
     background-color: #eff1f3;
 }
-.wiki-center .body .left .wiki-left-box .wiki-none {
+.wiki-center .body .left .wiki-left-box .wiki-box .wiki-none {
     display: none;
 }
-.wiki-center .body .left .wiki-left-box .wiki-active {
+.wiki-center .body .left .wiki-left-box .wiki-box .wiki-active {
     display: inline;
 }
-.wiki-center .body .left .wiki-left-box .wiki-show .icon-active {
+.wiki-center .body .left .wiki-left-box .wiki-box .wiki-show .icon-active {
     display: inline;
 }
-.wiki-center .body .left .wiki-left-box .wiki-show .icon-none {
+.wiki-center .body .left .wiki-left-box .wiki-box .wiki-show .icon-none {
     display: none;
 }
 

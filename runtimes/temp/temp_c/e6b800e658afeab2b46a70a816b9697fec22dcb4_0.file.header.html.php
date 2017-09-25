@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-21 12:43:25
+/* Smarty version 3.1.31, created on 2017-09-25 09:36:20
   from "C:\Object\linkphp-bbs\assets\views\main\public\header.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c397cd785005_01165487',
+  'unifunc' => 'content_59c8b1f44b7080_43741026',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e6b800e658afeab2b46a70a816b9697fec22dcb4' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\public\\header.html',
-      1 => 1505990592,
+      1 => 1506324978,
       2 => 'file',
     ),
   ),
@@ -20,12 +20,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59c397cd785005_01165487 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c8b1f44b7080_43741026 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="nav">
     <div class="nav-show">
         <div class="nav-show-left">
+            <a href="/">
             <img src="/resource/static/main/img/linkphp.png" />
+            </a>
         </div>
         <div class="nav-show-right">
             <a class="avatar" href="/index.php/main/login/main">

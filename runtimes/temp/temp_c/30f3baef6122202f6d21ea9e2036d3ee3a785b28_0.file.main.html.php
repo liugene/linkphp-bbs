@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-21 03:03:10
+/* Smarty version 3.1.31, created on 2017-09-25 10:03:10
   from "C:\Object\linkphp-bbs\assets\views\main\wiki\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c30fce85bd81_24665796',
+  'unifunc' => 'content_59c8b83e668a03_85786007',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '30f3baef6122202f6d21ea9e2036d3ee3a785b28' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\wiki\\main.html',
-      1 => 1505955696,
+      1 => 1506326402,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/header.html' => 1,
   ),
 ),false)) {
-function content_59c30fce85bd81_24665796 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c8b83e668a03_85786007 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -33,10 +33,19 @@ function content_59c30fce85bd81_24665796 (Smarty_Internal_Template $_smarty_tpl)
     <link href="/resource/static/main/css/wiki.css" type="text/css" rel="stylesheet" />
     <link href="/resource/static/main/css/footer.css" type="text/css" rel="stylesheet" />
     <?php echo '<script'; ?>
+ src="/resource/static/main/js/jquery.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="/resource/static/layer/layer.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
  src="/resource/static/layui/layui.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="/resource/static/main/js/jquery.min.js"><?php echo '</script'; ?>
+ src="/resource/static/main/util/util.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="/resource/static/main/logic/wiki.js"><?php echo '</script'; ?>
 >
 
     <title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
@@ -54,70 +63,44 @@ function content_59c30fce85bd81_24665796 (Smarty_Internal_Template $_smarty_tpl)
     <div class="body">
         <div class="left">
             <div class="wiki-left-box">
-                <span class="wiki-show">
-                    <a href="javascript:;">
-                        <i class="layui-icon icon icon-active">&#xe61a;</i>
-                        <i class="layui-icon icon icon-none">&#xe602;</i>
-                        wiki中心
-                    </a>
-                </span>
-                <ul class="wiki-active">
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                </ul>
-                <span class="wiki-show">
-                    <a href="javascript:;">
-                        <i class="layui-icon icon icon-none">&#xe61a;</i>
-                        <i class="layui-icon icon icon-active">&#xe602;</i>
-                        wiki中心
-                    </a>
-                </span>
-                <ul class="wiki-none">
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                </ul>
-                <span class="wiki-show">
-                    <a href="javascript:;">
-                        <i class="layui-icon icon icon-none">&#xe61a;</i>
-                        <i class="layui-icon icon icon-active">&#xe602;</i>
-                        wiki中心
-                    </a>
-                </span>
-                <ul class="wiki-none">
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                </ul>
-                <span class="wiki-show">
-                    <a href="javascript:;">
-                        <i class="layui-icon icon icon-none">&#xe61a;</i>
-                        <i class="layui-icon icon icon-active">&#xe602;</i>
-                        wiki中心
-                    </a>
-                </span>
-                <ul class="wiki-none">
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                    <li><a href="javascript:;">wiki手册</a></li>
-                </ul>
+                <!--<div class="wiki-box">-->
+                    <!--<span class="wiki-show">-->
+                    <!--<a href="javascript:;">-->
+                        <!--<i class="layui-icon icon icon-active">&#xe61a;</i>-->
+                        <!--<i class="layui-icon icon icon-none">&#xe602;</i>-->
+                        <!--wiki中心-->
+                    <!--</a>-->
+                <!--</span>-->
+                    <!--<ul class="wiki-active">-->
+                        <!--<li><a href="javascript:;">wiki手册</a></li>-->
+                        <!--<li><a href="javascript:;">wiki手册</a></li>-->
+                        <!--<li><a href="javascript:;">wiki手册</a></li>-->
+                        <!--<li><a href="javascript:;">wiki手册</a></li>-->
+                        <!--<li><a href="javascript:;">wiki手册</a></li>-->
+                        <!--<li><a href="javascript:;">wiki手册</a></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+                <!--<div class="wiki-box">-->
+                    <!--<span class="wiki-show">-->
+                    <!--<a href="javascript:;">-->
+                        <!--<i class="layui-icon icon icon-none">&#xe61a;</i>-->
+                        <!--<i class="layui-icon icon icon-active">&#xe602;</i>-->
+                        <!--wiki中心-->
+                    <!--</a>-->
+                <!--</span>-->
+                    <!--<ul class="wiki-none">-->
+                        <!--<li><a href="javascript:;">wiki手册</a></li>-->
+                        <!--<li><a href="javascript:;">wiki手册</a></li>-->
+                        <!--<li><a href="javascript:;">wiki手册</a></li>-->
+                        <!--<li><a href="javascript:;">wiki手册</a></li>-->
+                        <!--<li><a href="javascript:;">wiki手册</a></li>-->
+                        <!--<li><a href="javascript:;">wiki手册</a></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
             </div>
         </div>
         <div class="right">
-            <iframe src="/index.php/main/wiki/view" id="demoAdmin" style="width: 100%; height: 99%;" frameborder="0"></iframe>
+            <iframe src="/index.php/main/wiki/view" id="wiki-view" style="width: 100%; height: 99%;" frameborder="0"></iframe>
             <div class="wiki-footer">
                 © linkphp.cn - php api框架
             </div>
@@ -126,9 +109,6 @@ function content_59c30fce85bd81_24665796 (Smarty_Internal_Template $_smarty_tpl)
 </div>
 
 <!-- 底部  -->
-<?php echo '<script'; ?>
- src="/resource/static/main/js/wiki.js"><?php echo '</script'; ?>
->
 </body>
 </html>
 <?php }
