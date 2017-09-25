@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-22 14:14:55
+/* Smarty version 3.1.31, created on 2017-09-25 12:15:26
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\public\header.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c51adf3b16e0_28350759',
+  'unifunc' => 'content_59c8f35e3639f6_77321838',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7fd63b7ecb5cb45b97bba94d075552579bc674b2' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\public\\header.html',
-      1 => 1506089410,
+      1 => 1506341485,
       2 => 'file',
     ),
   ),
@@ -20,12 +20,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59c51adf3b16e0_28350759 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c8f35e3639f6_77321838 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="nav">
     <div class="nav-show">
         <div class="nav-show-left">
+            <a href="/">
             <img src="/resource/static/main/img/linkphp.png" />
+            </a>
         </div>
         <div class="nav-show-right">
             <a class="avatar" href="/index.php/main/login/main">
@@ -43,9 +45,9 @@ function content_59c51adf3b16e0_28350759 (Smarty_Internal_Template $_smarty_tpl)
                 <li class="layui-nav-item">
                     <a href="javascript:;">个人中心</a>
                     <dl class="layui-nav-child">
-                        <dd><a href="http://api.linkphp.cn" target="_blank">设置</a></dd>
-                        <dd><a href="http://class.linkphp.cn" target="_blank">我的帖子</a></dd>
-                        <dd><a href="http://dev.linkphp.cn" target="_blank">我的收藏</a></dd>
+                        <dd><a href="/index.php/main/user/main">设置</a></dd>
+                        <dd><a href="/index.php/main/user/main">我的帖子</a></dd>
+                        <dd><a href="/index.php/main/user/main">我的收藏</a></dd>
                     </dl>
                 </li>
             </ul>

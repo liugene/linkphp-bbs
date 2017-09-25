@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-20 13:17:09
+/* Smarty version 3.1.31, created on 2017-09-25 12:26:29
   from "E:\phpstudy\phpStudy20160101\WWW\linkphp-bbs\assets\views\main\library\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c26a551dbc58_54516204',
+  'unifunc' => 'content_59c8f5f5f271c6_64831969',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7ddf9a72e17f223717cdc621f157edf32615f93a' => 
     array (
       0 => 'E:\\phpstudy\\phpStudy20160101\\WWW\\linkphp-bbs\\assets\\views\\main\\library\\main.html',
-      1 => 1505910859,
+      1 => 1506341485,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/footer.html' => 1,
   ),
 ),false)) {
-function content_59c26a551dbc58_54516204 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c8f5f5f271c6_64831969 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -57,51 +57,95 @@ function content_59c26a551dbc58_54516204 (Smarty_Internal_Template $_smarty_tpl)
             <div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
                 <ul class="layui-tab-title">
                     <li class="layui-this">全部</li>
-                    <li>PHP</li>
-                    <li>阿里云</li>
-                    <li>七牛</li>
-                    <li>淘宝客</li>
                 </ul>
                 <div class="layui-tab-content"></div>
             </div>
             <div class="library-box">
                 <div class="library-content">
                     <div class="library-content-child">
-                        <div class="library-dec"></div>
+                        <div class="library-dec">
+                            <div class="library-img">
+                                <img src="/resource/static/main/img/lib/sdk.png">
+                            </div>
+                            <div class="library-dec-box">
+                                <p>sdk下载</p>
+                            </div>
+                        </div>
                         <div class="library-down">
-                            <a class="layui-btn" href="javascript:;">
-                                <i class="layui-icon">&#xe601;</i> 点击下载
-                            </a>
+                            <div class="layui-btn-group">
+                                <a class="layui-btn layui-btn-small" href="javascript:;">
+                                    <i class="layui-icon">&#xe601;</i> 下载
+                                </a>
+                                <a class="layui-btn layui-btn-small layui-btn-danger" href="javascript:;">
+                                    <i class="layui-icon">&#xe705;</i> 文档
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="library-content">
                     <div class="library-content-child">
-                        <div class="library-dec"></div>
+                        <div class="library-dec">
+                            <div class="library-img">
+                                <img src="/resource/static/main/img/lib/php.png">
+                            </div>
+                            <div class="library-dec-box">
+                                <p>sdk下载</p>
+                            </div>
+                        </div>
                         <div class="library-down">
-                            <a class="layui-btn" href="javascript:;">
-                                <i class="layui-icon">&#xe601;</i> 点击下载
-                            </a>
+                            <div class="layui-btn-group">
+                                <a class="layui-btn layui-btn-small" href="javascript:;">
+                                    <i class="layui-icon">&#xe601;</i> 下载
+                                </a>
+                                <a class="layui-btn layui-btn-small layui-btn-danger" href="javascript:;">
+                                    <i class="layui-icon">&#xe705;</i> 文档
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="library-content">
                     <div class="library-content-child">
-                        <div class="library-dec"></div>
+                        <div class="library-dec">
+                            <div class="library-img">
+                                <img src="/resource/static/main/img/lib/sdk.png">
+                            </div>
+                            <div class="library-dec-box">
+                                <p>sdk下载</p>
+                            </div>
+                        </div>
                         <div class="library-down">
-                            <a class="layui-btn" href="javascript:;">
-                                <i class="layui-icon">&#xe601;</i> 点击下载
-                            </a>
+                            <div class="layui-btn-group">
+                                <a class="layui-btn layui-btn-small" href="javascript:;">
+                                    <i class="layui-icon">&#xe601;</i> 下载
+                                </a>
+                                <a class="layui-btn layui-btn-small layui-btn-danger" href="javascript:;">
+                                    <i class="layui-icon">&#xe705;</i> 文档
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="library-content last-box">
+                <div class="library-content">
                     <div class="library-content-child">
-                        <div class="library-dec"></div>
+                        <div class="library-dec">
+                            <div class="library-img">
+                                <img src="/resource/static/main/img/lib/golang.png">
+                            </div>
+                            <div class="library-dec-box">
+                                <p>123</p>
+                            </div>
+                        </div>
                         <div class="library-down">
-                            <a class="layui-btn" href="javascript:;">
-                                <i class="layui-icon">&#xe601;</i> 点击下载
-                            </a>
+                            <div class="layui-btn-group">
+                                <a class="layui-btn layui-btn-small" href="javascript:;">
+                                    <i class="layui-icon">&#xe601;</i> 下载
+                                </a>
+                                <a class="layui-btn layui-btn-small layui-btn-danger" href="javascript:;">
+                                    <i class="layui-icon">&#xe705;</i> 文档
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
