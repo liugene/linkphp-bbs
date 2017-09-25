@@ -1,7 +1,7 @@
 .content {
     width: 100%;
     height: auto;
-    background-color: #fff;
+    background-color: #f8f9fb;
     background-clip: padding-box;
     min-height: 28px;
     overflow: hidden;
@@ -11,14 +11,14 @@
     height: auto;
     overflow: hidden;
     margin: 0 auto;
-    background: #fff;
+    background: #f8f9fb;
 }
  .library-box {
      width: 100%;
      height: auto;
      margin: 0 auto;
      overflow: hidden;
-     background: #fff;
+     background: #f8f9fb;
      margin-bottom: 65px;
  }
   .library-content {
@@ -36,14 +36,32 @@
        width:100%;
        height:100%;
        padding-top: 10px;
-       background:#e2e2e2;
+       background:#eeeeee;
+       border-radius: 8px;
    }
     .library-dec {
         width: 80%;
         height: 135px;
-        background: #000;
         margin: 5px auto;
     }
+     .library-dec .library-dec-box {
+              width: 90%;
+              height: 58px;
+              margin: 5px auto;
+          }
+      .library-dec .library-dec-box p {
+               color: #666;
+               line-height: 28px;
+            }
+     .library-dec .library-img {
+             width: 80%;
+             margin: 0 auto;
+             height: 68px;
+         }
+      .library-dec .library-img img {
+               width: 100%;
+               height: 100%;
+           }
     .library-down {
         text-align: center;
     }

@@ -42,5 +42,28 @@ $(function(){
             }
         });
         $('.center-box').html(html);
+        var elms = $('.center-show');
+        //alert(elms.size())
+        var floor = [];
+        elms.each(function (i,v) {
+            floor.push(v.offsetTop)
+        });
+        $(window).on('scroll',function () {
+            elms.each(function (i,v){
+                if ($(window).scrollTop() > floor[i] - 60) {
+                    //alert($('.center-show').scrollTop());
+                    $('.center-show').eq(i).addClass('active');
+                } else if ($(window).scrollTop() < floor[i] - 60) {
+                    $('.center-show').eq(i).removeClass('active');
+                }
+            })
+        });
+        $("#body").quietflow({
+            theme:"bouncingBalls",
+            backgroundCol : "#393D49",
+            specificColors : ["#2F4056", "#d2d2d2","#333","#5FB878","#e2e2e2","#01AAED",
+                "#FF5722","#FFB800","#eeeeee","#90EE90","#7CFC00","#7B68EE","#B03060","#CDCD00"]
+            // speed : 100
+        });
     });
 });
