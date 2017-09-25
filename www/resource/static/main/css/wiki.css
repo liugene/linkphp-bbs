@@ -137,7 +137,10 @@ body {
     display: none;
 }
 .wiki-center .body .left .wiki-left-box .wiki-box .wiki-active {
-    display: inline;
+    display: inline-block;
+    width: 100%;
+    border-bottom: none;
+    white-space: nowrap;
 }
 .wiki-center .body .left .wiki-left-box .wiki-box .wiki-show .icon-active {
     display: inline;

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-25 09:36:20
+/* Smarty version 3.1.31, created on 2017-09-25 10:43:25
   from "C:\Object\linkphp-bbs\assets\views\main\public\header.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c8b1f44b7080_43741026',
+  'unifunc' => 'content_59c8c1adeadd02_10760309',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e6b800e658afeab2b46a70a816b9697fec22dcb4' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\public\\header.html',
-      1 => 1506324978,
+      1 => 1506329003,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59c8b1f44b7080_43741026 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c8c1adeadd02_10760309 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="nav">
     <div class="nav-show">
@@ -45,9 +45,9 @@ function content_59c8b1f44b7080_43741026 (Smarty_Internal_Template $_smarty_tpl)
                 <li class="layui-nav-item">
                     <a href="javascript:;">个人中心</a>
                     <dl class="layui-nav-child">
-                        <dd><a href="http://api.linkphp.cn" target="_blank">设置</a></dd>
-                        <dd><a href="http://class.linkphp.cn" target="_blank">我的帖子</a></dd>
-                        <dd><a href="http://dev.linkphp.cn" target="_blank">我的收藏</a></dd>
+                        <dd><a href="/index.php/main/user/main">设置</a></dd>
+                        <dd><a href="/index.php/main/user/main">我的帖子</a></dd>
+                        <dd><a href="/index.php/main/user/main">我的收藏</a></dd>
                     </dl>
                 </li>
             </ul>

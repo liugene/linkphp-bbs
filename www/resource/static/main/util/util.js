@@ -39,3 +39,8 @@ function getData(url,data,callback){
 function trim(str) {
     return str.replace(/(^\s*)|(\s*$)/g, "");
 }
+
+function FormatDate (strTime) {
+    var date = new Date(strTime);
+    return date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate();
+}

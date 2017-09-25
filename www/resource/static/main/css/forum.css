@@ -1,5 +1,6 @@
 .content {
     width: 100%;
+    min-width: 1200px;
     height: auto;
     background-color: #f8f9fb;
     background-clip: padding-box;
