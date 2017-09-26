@@ -49,23 +49,53 @@ body{
      border-radius: 8px;
      position: absolute;
      display: none;
-     width: 380px;
-     height: 220px;
+     width: 326px;
+     height: auto;
      padding: 15px;
      z-index: 20;
      margin-bottom: 0;
-     background: #e2e2e2;
+     background: #F0F0F0;
      box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.18);
      -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
  }
  .ask-type-down .ask-type-p {
-     width: 85%;
-     height: 38px;
-     background: #000;
+     margin: 5px auto;
+     height: auto;
+     border-bottom: 1px solid #e2e2e2;
+     padding-bottom: 28px;
  }
  .ask-type-down .ask-type-c {
-     width: 85%;
-     height: 118px;
-     background: #000;
-     margin: 5px auto;
+     width: 93%;
+     margin: 22px auto;
+ }
+ .ask-type-name {
+     width: auto;
+     margin-right: 8px;
+     color: #d2d2d2;
+     margin-bottom: .5em;
+     line-height: 1.5;
+     float: left;
+     text-align: right;
+ }
+ .tags-info {
+     padding: 0 .3em;
+     line-height: 1.9;
+     display: inline-block;
+     vertical-align: middle;
+     cursor: pointer;
+     font-size: 14px;
+     color: #666;
+     border-radius: 3px;
+     font-weight: 500;
+ }
+.child {
+     background-color: #888;
+     padding: 0 .8em;
+     line-height: 1.9;
+     display: inline-block;
+     vertical-align: middle;
+     cursor: pointer;
+     font-size: 12px;
+     border-radius: 3px;
+     color: #fff;
  }

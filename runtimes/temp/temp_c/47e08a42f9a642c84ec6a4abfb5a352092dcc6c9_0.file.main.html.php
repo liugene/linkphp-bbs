@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-09-25 04:41:43
+/* Smarty version 3.1.31, created on 2017-09-26 04:45:47
   from "C:\Object\linkphp-bbs\assets\views\main\ask\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_59c86ce7c21783_29601471',
+  'unifunc' => 'content_59c9bf5bebfc81_10128892',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '47e08a42f9a642c84ec6a4abfb5a352092dcc6c9' => 
     array (
       0 => 'C:\\Object\\linkphp-bbs\\assets\\views\\main\\ask\\main.html',
-      1 => 1506301493,
+      1 => 1506393913,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/tool.html' => 1,
   ),
 ),false)) {
-function content_59c86ce7c21783_29601471 (Smarty_Internal_Template $_smarty_tpl) {
+function content_59c9bf5bebfc81_10128892 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -73,17 +73,29 @@ function content_59c86ce7c21783_29601471 (Smarty_Internal_Template $_smarty_tpl)
             <form class="layui-form" action="">
                 <div class="layui-form-item">
                     <div class="layui-input-block">
-                        <input id="title" type="text" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input title">
+                        <input id="title" type="text" value="" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input title">
                     </div>
                 </div>
                 <div class="layui-form-item ask-type">
                     <div class="layui-input-block">
-                        <input id="type" type="text" name="type" placeholder="标签,如:linkphp" autocomplete="off" class="layui-input tags">
+                        <input id="type" value="" cid="" type="text" name="type" placeholder="标签,如:linkphp" autocomplete="off" class="layui-input tags">
+                        <div class="ask-type-down">
+                            <div class="ask-type-box">
+                                <!--<div class="ask-type-p">-->
+                                    <!--<div class="ask-type-name">-->
+                                        <!--<a class="tags-info">linkphp</a>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="ask-type-c">-->
+                                    <!--<div class="ask-type-tags">-->
+                                        <!--<div class="ask-type-name">-->
+                                            <!--<a class="tags-info child">linkphp</a>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="ask-type-down">
-                    <div class="ask-type-p"></div>
-                    <div class="ask-type-c"></div>
                 </div>
                 <div class="layui-form-item layui-form-text ask-dec">
                     <div id="markdown">

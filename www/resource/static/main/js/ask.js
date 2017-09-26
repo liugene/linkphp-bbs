@@ -15,7 +15,7 @@ $(function(){
     });
     $('#type').on('blur',function(){
         $("html").click(function (e) {
-            if (e.target == $(".ask-type-down")[0] || e.target == $('#type')[0]) {
+            if (e.target == $(".ask-type-down")[0] || e.target == $('#type')[0] || e.target == $('.tags-info')[0]) {
                 console.log(1);
             } else {
                 $('.ask-type-down').css('display','none');

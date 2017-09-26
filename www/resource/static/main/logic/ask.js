@@ -26,12 +26,29 @@ $(function(){
             layer.msg('获取失败!', {icon: data.code});
             throw err;
         }
-        layer.msg('获取成功!', {icon: data.code});
-        var html = "";
+        var html = '<div class="ask-type-box">';
         $.each(data.data,function(i,item){
             console.log(item);
-            html += '';
+            html += '<div class="ask-type-p">'+
+                '<div class="ask-type-name">'+
+                '<a class="tags-info" pid="'+item.id+'">'+item.classname+'</a>'+
+                '</div>'+
+                '</div>';
+            $.each(item.cid,function(t,c_item){
+               html += '<div class="ask-type-c">'+
+                   '<div class="ask-type-tags">'+
+                    '<div class="ask-type-name">'+
+                    '<a class="tags-info child" cid="'+c_item.id+'">'+c_item.classname+'</a>'+
+                    '</div>'+
+                    '</div>'+
+                    '</div>';
+            });
         });
+        html += '</div>';
         $('.ask-type-down').html(html);
+        $('.child').click(function(){
+            $('#type').attr('cid',$(this).attr('cid'));
+            $('#type').val($(this).text());
+        });
     });
 });
