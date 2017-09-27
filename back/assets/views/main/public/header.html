@@ -1,0 +1,41 @@
+<div id="nav">
+    <div class="nav-show">
+        <div class="nav-show-left">
+            <a href="/">
+            <img src="/resource/static/main/img/linkphp.png" />
+            </a>
+        </div>
+        <div class="nav-show-right">
+            <a class="avatar" href="/index.php/main/login/main">
+                <img src="/resource/static/main/img/photo.png">
+                <cite>登入/注册</cite>
+            </a>
+        </div>
+        <div class="nav-show-middle">
+            <ul class="layui-nav" layui-filter="linkphpnav">
+                <li class="layui-nav-item"><a href="/">首页</a></li>
+                <li class="layui-nav-item"><a href="/index.php/main/forum/main">社区</a></li>
+                <li class="layui-nav-item"><a href="/index.php/main/wiki/main">WIKI</a></li>
+                <li class="layui-nav-item"><a href="/index.php/main/blog/main">博客</a></li>
+                <li class="layui-nav-item"><a href="/index.php/main/library/main">类库</a></li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">个人中心</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="/index.php/main/user/main">设置</a></dd>
+                        <dd><a href="/index.php/main/user/main">我的帖子</a></dd>
+                        <dd><a href="/index.php/main/user/main">我的收藏</a></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="border"></div>
+<!--<hr style="margin:0;">-->
+<script>
+    layui.use(['element'],function(){
+        var element = layui.element;
+        element.on('tab(linkphpnav)',function(){
+        });
+    });
+</script>
