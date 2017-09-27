@@ -1,4 +1,14 @@
 $(function(){
+    isLogin('index.php/main/auth/isLogin',function(err, data){
+        if (err) {
+            layer.msg('请求失败，请联系管理员!', {icon: data.code});
+            throw err;
+        }
+        if(data.code === 2){
+            layer.msg('您还未登入!', {icon: data.code});
+            return false;
+        }
+    });
     $('.my-post').click(function(){
         //我的帖子
         var myUrl = 'index.php/main/user/getPostByUser';

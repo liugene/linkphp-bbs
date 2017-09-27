@@ -5,6 +5,7 @@ $(function(){
         var url = 'index.php/main/login/login';
         request(url,param,function(err, data){
             if (err) throw err;
+            window.localStorage.setItem('token',data.token);
             layer.msg(data.msg, {icon: data.code});
         });
     });
