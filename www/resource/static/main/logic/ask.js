@@ -10,15 +10,16 @@
 // |               air.js
 // +----------------------------------------------------------------------
 $(function(){
-    //发帖
-    $('#saveFun').click(function(){
-        var param = {title:$('#title').val(),type:$('#type').val(),desc:$('#desc').val()};
-        var url = 'index.php/main/forum/push';
-        request(url,param,function(err, data){
-            if (err) throw err;
-            layer.msg(data.msg, {icon: data.code});
-        });
-    });
+    ////发帖
+    //$('#saveFun').click(function(){
+    //    console.log($('#desc').val());
+    //    var param = {title:$('#title').val(),type:$('#type').val(),desc:$('#desc').val()};
+    //    var url = 'index.php/main/forum/push';
+    //    request(url,param,function(err, data){
+    //        if (err) throw err;
+    //        layer.msg(data.msg, {icon: data.code});
+    //    });
+    //});
     //获取标签
     var url = 'index.php/main/forum/getType';
     getData(url,'',function(err, data){

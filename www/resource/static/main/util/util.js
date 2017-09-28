@@ -81,3 +81,12 @@ function loadCss(url) {
     link.href = url;
     document.getElementsByTagName('HEAD').item(0).appendChild(link);
 }
+
+//判断js是否已经加载
+function isInclude(name){
+    var js= /js$/i.test(name);
+    var es=document.getElementsByTagName(js?'script':'link');
+    for(var i=0;i<es.length;i++)
+        if(es[i][js?'src':'href'].indexOf(name)!=-1)return true;
+    return false;
+}

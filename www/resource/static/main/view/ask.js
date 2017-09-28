@@ -37,7 +37,6 @@ $(function(){
     $('.box').html(tpl);
     $('.box').html(tpl);
     $('.box').css('height',winHeight+6);
-    $('body').css({'height':winHeight,'overflow':'hidden'});
     var markdown;
     $(function() {
         markdown = editormd("markdown", {
@@ -45,6 +44,28 @@ $(function(){
             height  : 380,
             syncScrolling : "single",
             path    : "/resource/static/editor.md/lib/"
+        });
+    });
+    $('#type').on('focus',function(){
+        $('.ask-type-down').css('display','block');
+    });
+    $('#type').on('blur',function(){
+        $("html").click(function (e) {
+            if (e.target == $(".ask-type-down")[0] || e.target == $('#type')[0] || e.target == $('.tags-info')[0]) {
+                console.log(1);
+            } else {
+                $('.ask-type-down').css('display','none');
+            }
+        });
+    });
+    //发帖
+    $('#saveFun').click(function(){
+        console.log($('#desc').val());
+        var param = {title:$('#title').val(),type:$('#type').val(),desc:$('#desc').val()};
+        var url = 'index.php/main/forum/push';
+        request(url,param,function(err, data){
+            if (err) throw err;
+            layer.msg(data.msg, {icon: data.code});
         });
     });
 });
