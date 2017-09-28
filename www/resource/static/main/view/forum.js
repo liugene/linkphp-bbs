@@ -73,4 +73,7 @@ $(function(){
         '</div>'+
         '</div>';
     $('.box').html(tpl);
+    $('.tool').click(function(){
+        $('.cats-more').slideToggle();
+    });
 });

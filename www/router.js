@@ -14,7 +14,7 @@ $(function(){
         $('body').css({'height':'','overflow':'','background':'#393D49'});
         loadJs('/resource/static/main/view/forum.js');
         loadCss('/resource/static/main/css/forum.css');
-        loadJs('/resource/static/main/js/forum.js');
+        //loadJs('/resource/static/main/js/forum.js');
         loadJs('/resource/static/main/logic/forum.js');
     });
     airRouter.map('/wiki',function(){
