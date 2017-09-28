@@ -40,7 +40,7 @@ $(function(){
         $('#nav').css('display','none');
         $('#footer').css('display','block');
         $('.box').css('height','');
-        $('body').css({'height':'','overflow':'','background':'#393D49'});
+        $('body').css({'height':'','overflow':'','background':'#fff'});
         loadJs('/resource/static/main/view/login.js');
         loadCss('/resource/static/main/css/login.css');
         loadJs('/resource/static/main/js/login.js');
@@ -50,7 +50,7 @@ $(function(){
         $('#nav').css('display','none');
         $('#footer').css('display','block');
         $('.box').css('height','');
-        $('body').css({'height':'','overflow':'','background':'#393D49'});
+        $('body').css({'height':'','overflow':'','background':'#fff'});
         loadJs('/resource/static/main/view/register.js');
         loadCss('/resource/static/main/css/login.css');
         loadJs('/resource/static/main/js/login.js');
