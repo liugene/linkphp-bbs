@@ -17,6 +17,10 @@ function request(url,data,callback){
     });
 }
 
+function redirect(url){
+    window.location.href = url;
+}
+
 //带验证操作
 function isLogin(url,callback){
     var token = localStorage.getItem('token');
@@ -32,6 +36,7 @@ function isLogin(url,callback){
                 callback(null,res);
             }
         }, error: function (error) {
+            console.log(error);
             if (typeof callback === 'function') {
                 callback(error);
             }
