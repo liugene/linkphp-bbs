@@ -2,7 +2,7 @@ $(function(){
     var tpl = '<div class="u_header">'+
         '<div class="u_header-box">'+
         '<div class="u_logo">'+
-        '<a href="/">'+
+        '<a href="/#/index">'+
         '<img src="/resource/static/main/img/linkphp.png">'+
         '</a>'+
         '</div>'+
