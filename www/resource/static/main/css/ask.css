@@ -30,7 +30,7 @@ body{
      line-height: 1.33;
      border-radius: 6px;
  }
- .tags {
+.title .tags {
      height: 36px;
      padding: 6px 16px;
      font-size: 15px;

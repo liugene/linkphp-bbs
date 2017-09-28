@@ -7,7 +7,7 @@
     min-height: 28px;
     overflow: hidden;
 }
- .content-box {
+ .forum-content-box {
      width: 1200px;
      height: auto;
      overflow: hidden;
@@ -175,9 +175,11 @@
     background: #fff;
 }
  .item-content-box {
-     margin-top: 38px;
-     margin-bottom: 68px;
      background: #fff;
+     width: 1200px;
+     height: auto;
+     overflow: hidden;
+     margin: 68px auto;
  }
   .content-item {
       width: 90%;

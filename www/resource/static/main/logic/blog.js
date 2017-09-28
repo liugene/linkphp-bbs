@@ -31,6 +31,6 @@ $(function(){
                 '</div>'+
                 '</div>';
         });
-        $('.content-box').html(html);
+        $('.wiki-content-box').html(html);
     });
 });

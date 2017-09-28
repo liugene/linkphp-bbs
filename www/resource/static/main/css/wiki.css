@@ -37,7 +37,7 @@ body {
 .nav-show {
     height: 100%;
 }
-.wiki-center .header{
+.header{
     width:100%;
     height: 60px;
     -webkit-box-sizing: border-box;
@@ -45,12 +45,12 @@ body {
     box-sizing: border-box;
     background:black;
 }
-.wiki-center .body{
+.body{
     width:100%;
     height:92%;
     overflow-y: hidden;
 }
-.wiki-center .body .left{
+.body .left{
     width:20%;
     height:100%;
     float:left;
@@ -59,24 +59,24 @@ body {
     border-right: 1px solid rgba(0,0,0,.07);
     box-sizing: border-box;
 }
-.wiki-center .body .right{
+.body .right{
     width:80%;
     height:95%;
     float:right;
     background: #fff;
 }
-.wiki-center .body::after{
+.body::after{
     content:"";
     display:block;
     clear:both;
 }
-.wiki-center .body .left .wiki-left-box {
+.body .left .wiki-left-box {
     width: 90%;
     height: auto;
     margin: 38px auto;
     overflow-x: hidden;
 }
-.wiki-center .body .left .wiki-left-box .wiki-box span {
+.body .left .wiki-left-box .wiki-box span {
      display: inline-block;
     width:100%;
      border-bottom: none;
@@ -88,17 +88,17 @@ body {
      position: relative;
     font-size: 16px;
  }
-.wiki-center .body .left .wiki-left-box .wiki-box span a{
+.body .left .wiki-left-box .wiki-box span a{
     display: block;
     width:100%;
     height:35px;
     line-height: 35px;
 }
-.wiki-center .body .left .wiki-left-box .wiki-box span a .icon{
+.body .left .wiki-left-box .wiki-box span a .icon{
     padding: 8px;
     font-size: 12px;
 }
-.wiki-center .body .left .wiki-left-box .wiki-box span a::before {
+.body .left .wiki-left-box .wiki-box span a::before {
     /*content: '&#xe61a;';*/
     font-style: normal;
     font-weight: 600;
@@ -108,10 +108,10 @@ body {
     color: #8d8d8d;
     font-size: 14px;
 }
-.wiki-center .body .left .wiki-left-box .wiki-box span a:hover {
+.body .left .wiki-left-box .wiki-box span a:hover {
     background-color: #eff1f3;
 }
-.wiki-center .body .left .wiki-left-box .wiki-box ul li {
+.body .left .wiki-left-box .wiki-box ul li {
      display: block;
      padding: 2px 32px;
      border-bottom: none;
@@ -123,29 +123,29 @@ body {
      white-space: nowrap;
      position: relative;
  }
-.wiki-center .body .left .wiki-left-box .wiki-box ul li a {
+.body .left .wiki-left-box .wiki-box ul li a {
     display: block;
     width:100%;
     height:35px;
     line-height: 35px;
     padding-left: 12px;
 }
-.wiki-center .body .left .wiki-left-box .wiki-box ul li a:hover {
+.body .left .wiki-left-box .wiki-box ul li a:hover {
     background-color: #eff1f3;
 }
-.wiki-center .body .left .wiki-left-box .wiki-box .wiki-none {
+.body .left .wiki-left-box .wiki-box .wiki-none {
     display: none;
 }
-.wiki-center .body .left .wiki-left-box .wiki-box .wiki-active {
+.body .left .wiki-left-box .wiki-box .wiki-active {
     display: inline-block;
     width: 100%;
     border-bottom: none;
     white-space: nowrap;
 }
-.wiki-center .body .left .wiki-left-box .wiki-box .wiki-show .icon-active {
+.body .left .wiki-left-box .wiki-box .wiki-show .icon-active {
     display: inline;
 }
-.wiki-center .body .left .wiki-left-box .wiki-box .wiki-show .icon-none {
+.body .left .wiki-left-box .wiki-box .wiki-show .icon-none {
     display: none;
 }
 

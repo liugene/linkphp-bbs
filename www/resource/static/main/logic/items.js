@@ -14,7 +14,7 @@ $(function(){
     var itemUrl = 'index.php/main/forum/getItems';
     getData(itemUrl,'',function(err, data){
         if (err) {
-            layer.msg('获取失败!', {icon: data.code});
+            layer.msg('获取失败!', {icon: 2});
             throw err;
         }
         var html = "";

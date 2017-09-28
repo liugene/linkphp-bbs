@@ -1,7 +1,10 @@
+body {
+    background-color:#393D49;
+}
 .content {
     background: #f8f9fb;
 }
-.content-box {
+.wiki-content-box {
     width: 70%;
     margin: 65px auto;
     height: auto;

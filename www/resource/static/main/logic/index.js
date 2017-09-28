@@ -58,12 +58,5 @@ $(function(){
                 }
             })
         });
-        $("#body").quietflow({
-            theme:"bouncingBalls",
-            backgroundCol : "#393D49",
-            specificColors : ["#2F4056", "#d2d2d2","#333","#5FB878","#e2e2e2","#01AAED",
-                "#FF5722","#FFB800","#eeeeee","#90EE90","#7CFC00","#7B68EE","#B03060","#CDCD00"]
-            // speed : 100
-        });
     });
 });

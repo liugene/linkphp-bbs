@@ -20,7 +20,7 @@ $(function(){
         $.each(data.data,function(i,item){
             html += '<div class="left-content">'+
                 '<div class="post-title">'+
-                '<a href="/index.php/main/forum/items" target="_blank">'+item.title+'</a>'+
+                '<a href="/#/item" target="_blank">'+item.title+'</a>'+
                 '</div>'+
                 '<div class="post-info">'+
                 '<strong class="post-user">'+item.u_id+'</strong>'+
