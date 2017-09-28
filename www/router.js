@@ -1,5 +1,10 @@
 $(function(){
     airRouter.map('/index',function(){
+        $('#nav').css('display','block');
+        $('#footer').css('display','block');
+        $('.box').css('height','');
+        $('body').css({'height':'','overflow':'','background':'#393D49'});
+        loadJs('/resource/static/main/view/index.js');
         loadJs('/resource/static/main/logic/index.js');
     });
     airRouter.map('/forum',function(){

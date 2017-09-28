@@ -35,7 +35,6 @@ $(function(){
     '<a id="closeFun" class="layui-btn layui-btn layui-btn-danger"><i class="layui-icon">&#x1006;</i> 放弃</a>'+
     '</div>';
     $('.box').html(tpl);
-    $('.box').html(tpl);
     $('.box').css('height',winHeight+6);
     var markdown;
     $(function() {
