@@ -5,7 +5,11 @@ $(function(){
         var url = 'index.php/main/login/login';
         request(url,param,function(err, data){
             if (err) throw err;
-            window.localStorage.setItem('token',data.token);
+            if(data.code === 1){
+                window.localStorage.setItem('token',data.token);
+                layer.msg(data.msg, {icon: data.code});
+                setTimeout(redirect('/#/user'),5000);
+            }
             layer.msg(data.msg, {icon: data.code});
         });
     });

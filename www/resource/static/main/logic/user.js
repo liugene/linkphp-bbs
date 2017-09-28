@@ -1,6 +1,5 @@
 $(function(){
     isLogin('index.php/main/auth/isLogin',function(err, data){
-        console.log(data);
         if (err) {
             layer.msg('请求失败，请联系管理员!', {icon: 2});
             //throw err;
@@ -12,7 +11,8 @@ $(function(){
             return false;
         }
     });
-    $('.my-post').click(function(){
+
+    airRouter.map('/user/post',function(){
         //我的帖子
         var myUrl = 'index.php/main/user/getPostByUser';
         getData(myUrl,'',function(err, data){
