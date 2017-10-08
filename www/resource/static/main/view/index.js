@@ -1,5 +1,5 @@
 $(function(){
-    var tpl = '<div id="content index-content" style="box-shadow: 0 6px 28px rgba(0,0,0,.10);">'+
+    var tpl = '<div id="content index-content">'+
         '<div class="class-content">'+
         '<div class="class-content-logo">'+
         '<img src="/resource/static/main/img/icon.png" style="width:220px;height:220px" />'+
@@ -16,6 +16,7 @@ $(function(){
         '</div>'+
         '<div class="clear">'+
         '</div>'+
+        '<div class="border"></div>'+
         '<!-- 首页中间  -->'+
         '<div id="center">'+
         '<div class="center-box">'+
