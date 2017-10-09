@@ -95,3 +95,12 @@ function isInclude(name){
         if(es[i][js?'src':'href'].indexOf(name)!=-1)return true;
     return false;
 }
+
+function wordLimit(input){
+    var maxwidth=200;
+    if(input.length>maxwidth){
+        return input.substring(0,maxwidth)
+    } else {
+        return input;
+    }
+}

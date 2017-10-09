@@ -121,8 +121,8 @@ h1, h2, h3, h4, h5, h6 {
     width:100%;
     white-space:nowrap;
     overflow:hidden;
-    -webkit-animation: type 5s steps(50, end) infinite;
-    animation: type 5s steps(50, end) infinite;
+    -webkit-animation: type 10s steps(50, end) infinite;
+    animation: type 10s steps(50, end) infinite;
 }
 @-webkit-keyframes type{
     from { width: 0;}

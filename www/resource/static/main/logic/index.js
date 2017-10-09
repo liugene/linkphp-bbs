@@ -19,7 +19,7 @@ $(function(){
                     '<a href="javascript:;">'+item.title+'</a>'+
                     '</div>'+
                     '<div class="right-repeat-dec">'+
-                    '<p>'+item.content+'</p>'+
+                    '<p class="p">'+wordLimit(item.content)+'</p>'+
                     '</div>'+
                     '<img src="/resource/static/main/img/talk.png">'+
                     '</div>'+
@@ -34,12 +34,13 @@ $(function(){
                         '<a href="javascript:;">'+item.title+'</a>'+
                         '</div>'+
                         '<div class="left-repeat-dec">'+
-                        '<p>'+item.content+'</p>'+
+                        '<p class="p">'+wordLimit(item.content)+'</p>'+
                         '</div>'+
                         '<img src="/resource/static/main/img/talk-repeat.png">'+
                         '</div>'+
                         '</div>';
             }
+
         });
         $('.center-box').html(html);
         var elms = $('.center-show');
@@ -48,6 +49,7 @@ $(function(){
         elms.each(function (i,v) {
             floor.push(v.offsetTop)
         });
+
         $(window).on('scroll',function () {
             elms.each(function (i,v){
                 if ($(window).scrollTop() > floor[i] - 60) {
