@@ -79,6 +79,13 @@ $(function(){
         //loadJs('/resource/static/main/js/ask.js');
         loadJs('/resource/static/main/logic/ask.js');
     });
+    airRouter.map('/blog/push',function(){
+        $('#nav').css('display','block');
+        $('#footer').css('display','none');
+        $('body').css({'height':'','overflow':'','background':'#fff'});
+        loadJs('/resource/static/main/view/blog-push.js');
+        loadCss('/resource/static/main/css/push.css');
+    });
     airRouter.map('/item',function(){
         $('#nav').css('display','block');
         $('#footer').css('display','block');
