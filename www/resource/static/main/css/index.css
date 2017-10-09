@@ -200,9 +200,10 @@ h1, h2, h3, h4, h5, h6 {
      margin-left: 68px;
  }
   .right-repeat-img img {
-      border-radius: 50%;
+      border-radius: 25%;
       width: 100px;
       height: 100px;
+      background: #d2d2d2;
   }
   .right-repeat-title {
       position:absolute;
@@ -225,6 +226,7 @@ h1, h2, h3, h4, h5, h6 {
       border-radius: 50%;
       width: 100px;
       height: 100px;
+      border: 1px solid #e2e2e2;
   }
  .left-repeat-title {
      position:absolute;
