@@ -5,7 +5,7 @@ $(function(){
         '<img src="/resource/static/main/img/icon.png" style="width:220px;height:220px" />'+
         '</div>'+
         '<div class="class-content-item">'+
-        '<a href="http://links.linkphp.cn" target="_blank" class="co-title">Links框架</a>'+
+        '<a href="http://links.linkphp.cn" target="_blank" class="co-title active">Links框架</a>'+
         '<a href="/#/wiki" class="co-title">帮助手册</a>'+
         '<a href="/#/forum" class="co-title active">技术问答</a>'+
         '<a href="http://github.com/liugene/linkphp" target="_blank" class="co-title">GitHub仓库</a>'+
