@@ -113,13 +113,23 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 .class-content-font {
+    font-weight: bold;
+    color: #eee;
+    font-size: 16px;
     text-align: center;
-    margin: 86px;
-    animation: change 1s  ease-in  infinite ; font-size: 16px; color: #eee; font-weight: bold}
-@keyframes change {
-    0%{ text-shadow: 0 0 15px #FF5722}
-    50%{ text-shadow: 0 0 60px #FF5722}
-    100%{ text-shadow: 0 0 35px #FF5722}
+    margin: 86px auto;
+    width:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end) infinite;
+    animation: type 5s steps(50, end) infinite;
+}
+@-webkit-keyframes type{
+    from { width: 0;}
+}
+
+@keyframes type{
+    from { width: 0;}
 }
 .center-show{
  width:90%;
