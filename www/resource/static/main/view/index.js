@@ -1,8 +1,11 @@
 $(function(){
     var tpl = '<div id="content index-content">'+
         '<div class="class-content">'+
-        '<div class="class-content-logo">'+
-        '<img src="/resource/static/main/img/icon.png" style="width:220px;height:220px" />'+
+        '<div class="class-content-search">'+
+        '<input type="text" class="search-text" />'+
+        '<div class="class-content-search-btn">'+
+        '<input type="submit" value="搜一下" class="s_btn" />'+
+        '</div>'+
         '</div>'+
         '<div class="class-content-item">'+
         '<a href="http://links.linkphp.cn" target="_blank" class="co-title active">Links框架</a>'+
@@ -23,3 +26,4 @@ $(function(){
         '</div>';
     $('.box').html(tpl);
 });
+

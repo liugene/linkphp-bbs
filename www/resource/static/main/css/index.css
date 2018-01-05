@@ -82,10 +82,12 @@ h1, h2, h3, h4, h5, h6 {
  float:right;
 }
 .class-content{
- width:100%;
+ width:1180px;
  height:auto;
  margin:0 auto;
  padding-top:100px;
+    min-width: 1120px;
+    max-width: 1200px;
 }
 .class-content-logo{
  width:220px;
@@ -94,6 +96,60 @@ h1, h2, h3, h4, h5, h6 {
  border-radius:25px;
  border: 1px solid #fff;
 }
+
+.class-content-search{
+    background: #fff;
+    vertical-align: top;
+    width: 620px;
+    border-right-width: 0;
+    overflow: hidden;
+    height: 34px;
+    margin: 0 auto;
+    margin-bottom: 180px;
+    margin-top: 85px;
+}
+
+.class-content-search .search-text {
+    width: 500px;
+    height: 22px;
+    font: 16px/18px arial;
+    line-height: 22px;
+    margin: 6px 0 0 7px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    float: left;
+}
+
+.class-content-search-btn {
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+    background-position: -120px -48px;
+    z-index: 0;
+    vertical-align: top;
+    float: right;
+}
+
+.class-content-search-btn .s_btn {
+    width: 100px;
+    height: 36px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
 .class-content-item{
     width: 100%;
     margin:68px auto;
