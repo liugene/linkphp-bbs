@@ -239,10 +239,12 @@
     height: 38px;
 }
 .cats .cats-box {
-    width: 85%;
+    width: 1120px;
     height: auto;
     margin: 18px auto;
     overflow: hidden;
+    min-width: 980px;
+    max-width: 1200px;
 }
 .cats .cats-box .cats-items {
     width: auto;
