@@ -60,12 +60,13 @@ body {
     box-sizing: border-box;
     height: 100vh;
     overflow-y: auto;
+    position: fixed;
 }
 .body .right{
     width: 80%;
     height: 100%;
     background: #fff;
-    position: absolute;
+    position: fixed;
     left: 20%;
 }
 .body::after{
