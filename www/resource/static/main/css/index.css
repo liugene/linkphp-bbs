@@ -43,8 +43,10 @@ h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
 }
 .nav-show{
- width:90%;
+ width:1180px;
  margin:0 auto;
+    max-width: 1200px;
+    min-width: 1180px;
     overflow: hidden;
 }
 .nav-show-left{
@@ -187,7 +189,9 @@ h1, h2, h3, h4, h5, h6 {
       width: 680px;
   }
 .center-box {
-    width: 95%;
+    width: 1180px;
+    max-width: 1200px;
+    min-width: 1180px;
     height:auto;
     margin: 0 auto;
     z-index: 1;
