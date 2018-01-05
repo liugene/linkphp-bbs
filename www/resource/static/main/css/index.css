@@ -89,6 +89,14 @@ h1, h2, h3, h4, h5, h6 {
     min-width: 1120px;
     max-width: 1200px;
 }
+
+.class-content .search-logo {
+    text-align: center;
+}
+
+.class-content .search-logo img {
+}
+
 .class-content-logo{
  width:220px;
  height:220px;
@@ -100,18 +108,18 @@ h1, h2, h3, h4, h5, h6 {
 .class-content-search{
     background: #fff;
     vertical-align: top;
-    width: 620px;
+    width: 720px;
     border-right-width: 0;
     overflow: hidden;
-    height: 34px;
+    height: 40px;
     margin: 0 auto;
     margin-bottom: 180px;
     margin-top: 85px;
 }
 
 .class-content-search .search-text {
-    width: 500px;
-    height: 22px;
+    width: 598px;
+    height: 28px;
     font: 16px/18px arial;
     line-height: 22px;
     margin: 6px 0 0 7px;
@@ -136,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .class-content-search-btn .s_btn {
     width: 100px;
-    height: 36px;
+    height: 40px;
     color: #fff;
     font-size: 15px;
     letter-spacing: 1px;

@@ -1,10 +1,13 @@
 $(function(){
     var tpl = '<div id="content index-content">'+
         '<div class="class-content">'+
+        '<div class="search-logo">'+
+        '<img src="/resource/static/main/img/search_logo.png" />'+
+        '</div>'+
         '<div class="class-content-search">'+
         '<input type="text" class="search-text" />'+
         '<div class="class-content-search-btn">'+
-        '<input type="submit" value="搜一下" class="s_btn" />'+
+        '<input type="submit" value="Debug" class="s_btn" />'+
         '</div>'+
         '</div>'+
         '<div class="class-content-item">'+
