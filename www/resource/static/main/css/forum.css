@@ -8,13 +8,13 @@
     overflow: hidden;
 }
  .forum-content-box {
-     width: 1200px;
+     width: 1120px;
      height: auto;
      overflow: hidden;
      margin: 0 auto;
  }
   .left-box {
-      width: 850px;
+      width: 73%;
       height: auto;
       margin-top: 38px;
       margin-bottom: 68px;
@@ -27,7 +27,7 @@
       box-sizing: border-box;
   }
    .right-box {
-       width: 320px;
+       width: 25%;
        height: 460px;
        margin-top: 38px;
        margin-bottom: 68px;
