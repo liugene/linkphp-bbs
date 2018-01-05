@@ -7,11 +7,13 @@
     overflow: hidden;
 }
 .library-content-box {
-    width: 80%;
+    width: 1180px;
     height: auto;
     overflow: hidden;
     margin: 0 auto;
     background: #fff;
+    min-width: 1120px;
+    max-width: 1200px;
 }
  .library-box {
      width: 100%;

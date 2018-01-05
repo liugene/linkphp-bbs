@@ -5,7 +5,7 @@ body {
     background: #f8f9fb;
 }
 .wiki-content-box {
-    width: 70%;
+    width: 1080px;
     margin: 65px auto;
     height: auto;
     background: #fff;
@@ -15,6 +15,8 @@ body {
     -moz-box-shadow: 0 0 15px rgba(150,150,150,0.3) inset;/*firefox*/
     -webkit-box-shadow: 0 0 15px rgba(150,150,150,0.3) inset;/*safari或chrome*/
     box-sizing: border-box;
+    min-width: 980px;
+    max-width: 1200px;
 }
 .blog-content {
     height: auto;

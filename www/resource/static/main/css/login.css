@@ -29,10 +29,12 @@ body{
     box-sizing: border-box;
 }
 .u_header .u_header-box{
-    width: 78%;
+    width: 1180px;
     height: 58px;
     margin: 5px auto;
     overflow: hidden;
+    min-width: 1120px;
+    max-width: 1200px;
 }
 .u_header .u_header-box .u_logo{
     width: 228px;
@@ -54,10 +56,12 @@ body{
     background: #fff;
 }
 .body .body-box {
-    width: 80%;
+    width: 1180px;
     height: auto;
     margin: 68px auto;
     overflow: hidden;
+    min-width: 1120px;
+    max-width: 1200px;
 }
 .body .body-box .body-left {
     width: 50%;
