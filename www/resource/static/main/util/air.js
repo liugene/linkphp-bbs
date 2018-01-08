@@ -58,7 +58,7 @@
                 this.refresh(currentHash)
             }else{
                 //不存在的地址重定向到首页
-                location.hash = '/index'
+                alert('指定模板不存在');
             }
         },
         //单层路由注册
